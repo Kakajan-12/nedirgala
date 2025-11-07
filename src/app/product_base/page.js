@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 "use client";
+import { Fancybox } from "@fancyapps/ui";
 import "../../../public/assets/css/fancybox.css";
 
 export default function ProductBase() {

@@ -499,6 +499,10 @@
     height: 300px;
   }
 
+  .h-\[532px\] {
+    height: 532px;
+  }
+
   .h-full {
     height: 100%;
   }
@@ -583,6 +587,10 @@
     align-items: center;
   }
 
+  .items-start {
+    align-items: flex-start;
+  }
+
   .justify-between {
     justify-content: space-between;
   }
@@ -597,6 +605,10 @@
 
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
   }
 
   .gap-8 {
