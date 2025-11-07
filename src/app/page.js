@@ -1,115 +1,11 @@
+import Link from "next/link";
+
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
+    function changeLang(lang) {}
+
     return (
-        <div className=" max-w-[1400px] mx-auto p-2">
-            <header>
-                <div>
-                    <div className="flex items-center justify-between py-4">
-                        <div className="flex items-center">
-                            <a href="/tk">
-                                <img
-                                    className="max-w-[170px] w-full"
-                                    src="../assets/img/logo.png"
-                                    alt="logo"
-                                />
-                            </a>
-                        </div>
-                        <nav className="hidden md:flex">
-                            <div className="flex items-center space-x-8">
-                                <div className="relative group">
-                                    <span className="cursor-pointer text-gray-700 duration-200 p-2 hover:bg-gray-200 rounded-md">
-                                        Hyzmatlar
-                                    </span>
-
-                                    {/* Dropdown */}
-                                    <div className="absolute z-10 border border-gray-200 left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible">
-                                        <a
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
-                                            href="/tk/lift.html"
-                                        >
-                                            Lift
-                                        </a>
-                                        <a
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
-                                            href="/tk/greenhouse.html"
-                                        >
-                                            Ýyladyşhana
-                                        </a>
-                                        <a
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
-                                            href="/tk/tomate.html"
-                                        >
-                                            Tomat zawody
-                                        </a>
-                                        <a
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
-                                            href="/tk/construction.html"
-                                        >
-                                            Gurluşyk
-                                        </a>
-                                        <a
-                                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
-                                            href="/tk/technics.html"
-                                        >
-                                            Tehnikalar
-                                        </a>
-                                    </div>
-                                </div>
-                                <a
-                                    className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
-                                    href="/tk/products.html"
-                                >
-                                    Önümler
-                                </a>
-                                <a
-                                    className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
-                                    href="/tk/product-base.html"
-                                >
-                                    Önümçilik bazasy
-                                </a>
-                                <a
-                                    className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
-                                    href="/tk/about.html"
-                                >
-                                    Biz barada
-                                </a>
-                                <a
-                                    className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
-                                    href="/tk/contact.html"
-                                >
-                                    Kontakt
-                                </a>
-                            </div>
-                        </nav>
-
-                        {/* Lang flags */}
-                        <div className="flex items-center gap-2">
-                            <a href="/tk">
-                                <img
-                                    className="w-[35px] h-[25px] overflow-hidden rounded-md border border-gray-200 hover:shadow-gray-400 duration-200"
-                                    src="../assets/img/lang/turkmen.png"
-                                    alt="lang"
-                                />
-                            </a>
-                            <a href="/en">
-                                <img
-                                    className="w-[35px] h-[25px] overflow-hidden rounded-md border border-gray-200 hover:shadow-gray-400 duration-200"
-                                    src="../assets/img/lang/english.webp"
-                                    alt="lang"
-                                />
-                            </a>
-                            <a href="/ru">
-                                <img
-                                    className="w-[35px] h-[25px] overflow-hidden rounded-md border border-gray-200 hover:shadow-gray-400 duration-200"
-                                    src="../assets/img/lang/russian.webp"
-                                    alt="lang"
-                                />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
+        <div className="  ">
             <section
                 className="relative h-screen flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden rounded-2xl max-h-[300px] md:max-h-[800px]"
                 style={{ backgroundImage: "url('../assets/img/berkarar.jpg')" }}
@@ -171,7 +67,7 @@ export default function Home() {
             </section>
 
             <section className="py-16">
-                <div className="container mx-auto px-4 text-center">
+                <div className="text-center">
                     <h3 className="text-3xl font-bold mb-8">Hyzmatlarymyz</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         <ServiceItem
@@ -208,43 +104,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
-            <section className="py-16 bg-gray-100 rounded-2xl my-4">
-                <div className="container mx-auto px-4 text-center">
-                    <h3 className="text-3xl font-bold mb-8">
-                        Hyzmatdaşlarymyz
-                    </h3>
-                    <div className="flex justify-center items-center space-x-12">
-                        <div className="">
-                            <img
-                                className="w-[180px] aspect-square border border-gray-200 rounded-2xl object-contain overflow-hidden bg-white"
-                                src="../assets/img/brands/CNPC logo.webp"
-                                alt="logo"
-                            />
-                        </div>
-                        <div className="">
-                            <img
-                                className="w-[180px] aspect-square border border-gray-200 rounded-2xl object-contain overflow-hidden bg-white"
-                                src="../assets/img/brands/schindler.jpg"
-                                alt="logo"
-                            />
-                        </div>
-                        <div className="">
-                            <img
-                                className="w-[180px] aspect-square border border-gray-200 rounded-2xl object-contain overflow-hidden bg-white"
-                                src="../assets/img/brands/TSTB.svg"
-                                alt="logo"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <footer className="bg-gray-800 text-white py-4 overflow-hidden rounded-2xl my-2">
-                <div className="container mx-auto text-center">
-                    Nedir Gala <span>{new Date().getFullYear()}</span>
-                </div>
-            </footer>
         </div>
     );
 }
