@@ -6,7 +6,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start  ">
             <div className="grid gap-4">
                 <label className="text-[50px] font-bold">
                     Biziň bilen habarlaşyň

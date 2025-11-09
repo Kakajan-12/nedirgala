@@ -2,8 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 "use client";
-import { Fancybox } from "@fancyapps/ui";
-import "../../../public/assets/css/fancybox.css";
+import FancyboxWrapper from "../components/FancyboxWrapper";
 
 export default function ProductBase() {
     return (
@@ -52,55 +51,57 @@ export default function ProductBase() {
             </div>
             <div className="project__gallery">
                 <div className="grid grid-cols-3 gap-4">
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng1.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng1.jpg" />
-                    </a>
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng2.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng2.jpg" />
-                    </a>
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng3.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng3.jpg" />
-                    </a>
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng4.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng4.jpg" />
-                    </a>
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng5.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng5.jpg" />
-                    </a>
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng6.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng6.jpg" />
-                    </a>
-                    <a
-                        className="project__photo rounded-2xl overflow-hidden"
-                        data-fancybox="gallery"
-                        data-src="../assets/img/product-base/ng7.jpg"
-                    >
-                        <img src="../assets/img/product-base/ng7.jpg" />
-                    </a>
+                    <FancyboxWrapper>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng1.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng1.jpg" />
+                        </a>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng2.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng2.jpg" />
+                        </a>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng3.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng3.jpg" />
+                        </a>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng4.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng4.jpg" />
+                        </a>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng5.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng5.jpg" />
+                        </a>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng6.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng6.jpg" />
+                        </a>
+                        <a
+                            className="project__photo rounded-2xl overflow-hidden"
+                            data-fancybox="gallery"
+                            href="../assets/img/product-base/ng7.jpg"
+                        >
+                            <img src="../assets/img/product-base/ng7.jpg" />
+                        </a>
+                    </FancyboxWrapper>
                 </div>
             </div>
         </div>

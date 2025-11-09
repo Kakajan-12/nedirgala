@@ -12,16 +12,18 @@ export const metadata = {
 export default function RootLayout({ children, params: { locale } }) {
     return (
         <html lang={locale}>
-            <body className="max-w-[1400px] mx-auto p-2">
-                <div className="flex items-center justify-between py-4 ">
+            <body className="max-w-[1400px] mx-auto px-2">
+                {/* header */}
+                <div className="sticky top-1 z-10 my-2 flex items-center justify-between  bg-slate-100  rounded-2xl px-4">
                     <div className="flex items-center">
-                        <a href="./">
+                        {/* LOGO */}
+                        <Link href="/">
                             <img
-                                className="max-w-[170px] w-full"
+                                className="max-w-[200px] w-full"
                                 src="../assets/img/logo.png"
                                 alt="logo"
                             />
-                        </a>
+                        </Link>
                     </div>
                     <nav className="hidden md:flex">
                         <div className="flex items-center space-x-8">
@@ -66,7 +68,7 @@ export default function RootLayout({ children, params: { locale } }) {
                             </div>
                             <Link
                                 className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
-                                href="products"
+                                href="/products"
                             >
                                 Önümler
                             </Link>
