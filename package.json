@@ -17,8 +17,7 @@
     "next": "16.0.1",
     "next-intl": "^4.4.0",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "react-simple-image-viewer": "^1.2.2"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
