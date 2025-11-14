@@ -4,7 +4,7 @@ export default function Greenhouse() {
     return (
         <ServiceProject
             title={"Ýyladyşhana"}
-            mainImageUrl={"../assets/img/greenhouse/teplisa1.JPG"}
+            mainImageUrl={"/assets/img/greenhouse/teplisa1.JPG"}
             location={"Türkmenistan, Ahal welaýatynyň Tejen etraby"}
             text={
                 "Hormatly Prezidentimiziň telekeçilik işini goldamak barada edýän taýsyz tagallalary \
@@ -27,19 +27,19 @@ export default function Greenhouse() {
                 we daşarky bazarlara satylýar. "
             }
             imageUrlList={[
-                "../assets/img/greenhouse/teplisa1.JPG",
-                "../assets/img/greenhouse/teplisa2.JPG",
-                "../assets/img/greenhouse/teplisa3.JPG",
-                "../assets/img/greenhouse/teplisa4.JPG",
-                "../assets/img/greenhouse/teplisa5.JPG",
-                "../assets/img/greenhouse/teplisa6.JPG",
-                "../assets/img/greenhouse/teplisa7.JPG",
-                "../assets/img/greenhouse/teplisa8.JPG",
-                "../assets/img/greenhouse/teplisa9.JPG",
-                "../assets/img/greenhouse/teplisa10.JPG",
-                "../assets/img/greenhouse/teplisa11.JPG",
-                "../assets/img/greenhouse/teplisa12.JPG",
-                "../assets/img/greenhouse/teplisa13.JPG",
+                "/assets/img/greenhouse/teplisa1.JPG",
+                "/assets/img/greenhouse/teplisa2.JPG",
+                "/assets/img/greenhouse/teplisa3.JPG",
+                "/assets/img/greenhouse/teplisa4.JPG",
+                "/assets/img/greenhouse/teplisa5.JPG",
+                "/assets/img/greenhouse/teplisa6.JPG",
+                "/assets/img/greenhouse/teplisa7.JPG",
+                "/assets/img/greenhouse/teplisa8.JPG",
+                "/assets/img/greenhouse/teplisa9.JPG",
+                "/assets/img/greenhouse/teplisa10.JPG",
+                "/assets/img/greenhouse/teplisa11.JPG",
+                "/assets/img/greenhouse/teplisa12.JPG",
+                "/assets/img/greenhouse/teplisa13.JPG",
             ]}
             products={"Pomidor"}
             area={"7 ga"}

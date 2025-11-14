@@ -11,7 +11,7 @@ export default function ProductBase() {
             <div className="grid grid-cols-2 gap-8">
                 <img
                     className="rounded-2xl"
-                    src="../assets/img/product-base/ng1.jpg"
+                    src="/assets/img/product-base/ng1.jpg"
                     alt=""
                 />
                 <div className="project__decription">
@@ -55,51 +55,51 @@ export default function ProductBase() {
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng1.jpg"
+                            href="/assets/img/product-base/ng1.jpg"
                         >
-                            <img src="../assets/img/product-base/ng1.jpg" />
+                            <img src="/assets/img/product-base/ng1.jpg" />
                         </a>
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng2.jpg"
+                            href="/assets/img/product-base/ng2.jpg"
                         >
-                            <img src="../assets/img/product-base/ng2.jpg" />
+                            <img src="/assets/img/product-base/ng2.jpg" />
                         </a>
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng3.jpg"
+                            href="/assets/img/product-base/ng3.jpg"
                         >
-                            <img src="../assets/img/product-base/ng3.jpg" />
+                            <img src="/assets/img/product-base/ng3.jpg" />
                         </a>
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng4.jpg"
+                            href="/assets/img/product-base/ng4.jpg"
                         >
-                            <img src="../assets/img/product-base/ng4.jpg" />
+                            <img src="/assets/img/product-base/ng4.jpg" />
                         </a>
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng5.jpg"
+                            href="/assets/img/product-base/ng5.jpg"
                         >
-                            <img src="../assets/img/product-base/ng5.jpg" />
+                            <img src="/assets/img/product-base/ng5.jpg" />
                         </a>
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng6.jpg"
+                            href="/assets/img/product-base/ng6.jpg"
                         >
-                            <img src="../assets/img/product-base/ng6.jpg" />
+                            <img src="/assets/img/product-base/ng6.jpg" />
                         </a>
                         <a
                             className="project__photo rounded-2xl overflow-hidden"
                             data-fancybox="gallery"
-                            href="../assets/img/product-base/ng7.jpg"
+                            href="/assets/img/product-base/ng7.jpg"
                         >
-                            <img src="../assets/img/product-base/ng7.jpg" />
+                            <img src="/assets/img/product-base/ng7.jpg" />
                         </a>
                     </FancyboxWrapper>
                 </div>

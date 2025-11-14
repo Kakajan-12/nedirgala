@@ -1,11 +1,11 @@
-import ServiceProject from "../../components/ServiceProject";
+import ServiceProject from "../../../components/ServiceProject";
 
-export default function Constrpuction() {
+export default function Project1() {
     return (
         <ServiceProject
             title={"GIAD-2, GIAD-3, ýyladyjy kotelni we 4 sany podstansiýa"}
             client={"Çuansiniň buraw inženerçilik kompaniýasy"}
-            mainImageUrl={"../../assets/img/construction/giad.png"}
+            mainImageUrl={"..//assets/img/construction/giad.png"}
             location={"Turkmenistan, Mary welaýaty Günorta Ýolöten"}
             text={
                 "  “Nedir Gala” Hususy kärhanasy köp ýyllaryň dowamynda telekeçilik işleriniň görnüşleri bilen meşgullanyp, bu ugurda \
@@ -18,13 +18,13 @@ export default function Constrpuction() {
             geçirmek işlerini ýerine ýetirdi."
             }
             imageUrlList={[
-                "../../assets/img/construction/giad.jpg",
-                "../../assets/img/construction/giad1.jpg",
-                "../../assets/img/construction/giad2.jpg",
-                "../../assets/img/construction/giad3.jpg",
-                "../../assets/img/construction/giad4.jpg",
-                "../../assets/img/construction/giad5.jpg",
-                "../../assets/img/construction/giad6.jpg",
+                "..//assets/img/construction/giad.jpg",
+                "..//assets/img/construction/giad1.jpg",
+                "..//assets/img/construction/giad2.jpg",
+                "..//assets/img/construction/giad3.jpg",
+                "..//assets/img/construction/giad4.jpg",
+                "..//assets/img/construction/giad5.jpg",
+                "..//assets/img/construction/giad6.jpg",
             ]}
             products={""}
             area={""}

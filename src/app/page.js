@@ -1,14 +1,17 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
-    function changeLang(lang) {}
+    // const translation = useTranslations("Index");
 
     return (
-        <div className="  ">
+        <div>
             <section
                 className="relative h-screen flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden rounded-2xl max-h-[300px] md:max-h-[800px]"
-                style={{ backgroundImage: "url('../assets/img/berkarar.jpg')" }}
+                style={{ backgroundImage: "url('/assets/img/berkarar.jpg')" }}
             >
                 <div className="bg-black/50 text-white bg-opacity-50 w-full h-full rounded-lg flex flex-col items-center justify-center">
                     <h1 className="text-5xl md:text-7xl font-bold">
@@ -22,7 +25,7 @@ export default function Home() {
                 <div className="grid md:grid-cols-2 gap-8 content-start">
                     <div>
                         <img
-                            src="../assets/img/berkarar.jpg"
+                            src="/assets/img/berkarar.jpg"
                             alt="nedir gala"
                             className="rounded-2xl overflow-hidden w-full"
                         />
@@ -56,12 +59,12 @@ export default function Home() {
                             ylalaşylan meýdançasynda Demirýolunyň aşagyndan
                             turba geçirmek boýunça gurluşyk işleri” desgasy...
                         </p>
-                        <a
-                            href="/tk/about.html"
+                        <Link
+                            href="/about"
                             className="mt-4 inline-block text-blue-600 hover:underline"
                         >
                             Giňişleýin
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -72,33 +75,33 @@ export default function Home() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         <ServiceItem
                             href="/greenhouse"
-                            imgUrl={"../assets/img/lift/lift1.png"}
+                            imgUrl={"/assets/img/lift/lift1.png"}
                             name={"Lift"}
                         ></ServiceItem>
 
                         <ServiceItem
                             href="/greenhouse"
-                            imgUrl="../assets/img/greenhouse/teplisa1.JPG"
+                            imgUrl="/assets/img/greenhouse/teplisa1.JPG"
                             name="Teplisa"
                         />
                         <ServiceItem
                             href="/products"
-                            imgUrl="../assets/img/products/ketchup_main.jpg"
+                            imgUrl="/assets/img/products/ketchup_main.jpg"
                             name="Önümler"
                         />
                         <ServiceItem
                             href="/tomate"
-                            imgUrl="../assets/img/tomato_plant/tomato2.jpg"
+                            imgUrl="/assets/img/tomato_plant/tomato2.jpg"
                             name="Tomat zawody"
                         />
                         <ServiceItem
                             href="/construction"
-                            imgUrl="../assets/img/construction/construction6.png"
+                            imgUrl="/assets/img/construction/construction6.png"
                             name="Gurluşyk"
                         />
                         <ServiceItem
                             href="/technics"
-                            imgUrl="../assets/img/technics/tehnika20.JPG"
+                            imgUrl="/assets/img/technics/tehnika20.JPG"
                             name="Tehnikalar"
                         />
                     </div>
@@ -122,13 +125,5 @@ function ServiceItem({ name, imgUrl, href }) {
                 </p>
             </div>
         </a>
-    );
-}
-
-function PartnersItem({ imgUrl }) {
-    return (
-        <div className="grayscale hover:grayscale-0 transition-all">
-            <img src={imgUrl} alt="logo" />
-        </div>
     );
 }

@@ -81,7 +81,7 @@ export default function ProductBase({
                                     data-src={item}
                                 >
                                     <img
-                                        className="object-cover w-full h-full"
+                                        className="object-cover aspect-square w-full h-full"
                                         src={item}
                                     />
                                 </a>

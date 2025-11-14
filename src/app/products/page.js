@@ -43,7 +43,7 @@ export default function Products() {
             <section className="">
                 <div className="w-full bg-[#c32d2f] rounded-3xl overflow-hidden flex justify-center">
                     <img
-                        src="../../assets/img/products/dayhan.png"
+                        src="..//assets/img/products/dayhan.png"
                         alt="dayhan"
                         className="h-[300px]"
                     />
@@ -54,7 +54,7 @@ export default function Products() {
                 <div className="products grid grid-cols-3 gap-10 my-6">
                     <ProductItem
                         imgUrl={
-                            "../../assets/img/products/ketchup-1-removebg-preview.png"
+                            "..//assets/img/products/ketchup-1-removebg-preview.png"
                         }
                         name={"Pomidor üwmeji"}
                         weight={"270g."}
@@ -67,7 +67,7 @@ export default function Products() {
 
                     <ProductItem
                         imgUrl={
-                            "../../assets/img/products/ketchup-2-removebg-preview.png"
+                            "..//assets/img/products/ketchup-2-removebg-preview.png"
                         }
                         name={"Ajy üwmeç"}
                         weight={"270g."}
@@ -80,7 +80,7 @@ export default function Products() {
 
                     <ProductItem
                         imgUrl={
-                            "../../assets/img/products/ketchup-3-removebg-preview.png"
+                            "..//assets/img/products/ketchup-3-removebg-preview.png"
                         }
                         name={"Pomidor üwmeji"}
                         weight={"350g."}
@@ -93,7 +93,7 @@ export default function Products() {
 
                     <ProductItem
                         imgUrl={
-                            "../../assets/img/products/ketchup-4-removebg-preview.png"
+                            "..//assets/img/products/ketchup-4-removebg-preview.png"
                         }
                         name={"Ajy üwmeç"}
                         weight={"350g."}
@@ -106,7 +106,7 @@ export default function Products() {
 
                     <ProductItem
                         imgUrl={
-                            "../../assets/img/products/ketchup-5-removebg-preview.png"
+                            "..//assets/img/products/ketchup-5-removebg-preview.png"
                         }
                         name={"Pomidor üwmeji"}
                         weight={"1000g."}
@@ -119,7 +119,7 @@ export default function Products() {
 
                     <ProductItem
                         imgUrl={
-                            "../../assets/img/products/ketchup-6-removebg-preview.png"
+                            "..//assets/img/products/ketchup-6-removebg-preview.png"
                         }
                         name={"Ajy üwmeç"}
                         weight={"1000g."}
@@ -134,11 +134,11 @@ export default function Products() {
             <a
                 download={"DayhanCatatlog.pdf"}
                 target="_blank"
-                href="../../assets/pdf/Dayhan_Catalog.pdf"
+                href="..//assets/pdf/Dayhan_Catalog.pdf"
             >
                 <div className="hover:bg-slate-200 duration-200 rounded-2xl p-4 w-max flex items-center">
                     <img
-                        src="../../assets/img/pdf.png"
+                        src="..//assets/img/pdf.png"
                         alt="Download catalog"
                         className="max-w-[50px]"
                     />

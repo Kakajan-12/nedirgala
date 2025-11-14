@@ -6,7 +6,7 @@ export default function About() {
                 <div className="about-page__content">
                     <img
                         className="rounded-2xl mx-auto my-8"
-                        src="../assets/img/berkarar.jpg"
+                        src="/assets/img/berkarar.jpg"
                         alt="nedir gala"
                     />
                 </div>

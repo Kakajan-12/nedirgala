@@ -24,7 +24,7 @@ export default function Lift() {
             {activeIndex == 0 && (
                 <ServiceProject
                     title={"Abraýly mebel"}
-                    mainImageUrl={"../../assets/img/lift/abrayly-mebel.JPG"}
+                    mainImageUrl={"..//assets/img/lift/abrayly-mebel.JPG"}
                     location={"Aşgabat, Türkmenistan"}
                     text={
                         " Baha, hil, göze ýakymlylyk boýunça has amatly we dünýä ülňülerine doly gabat gelýän “SCHINDLER” liftleri, Aşgabat we \
@@ -35,20 +35,20 @@ export default function Lift() {
                     boýunça sertifikatlary bolan tejribeli hünärmenlerimiz tarapyndan ýerine ýetirilýär."
                     }
                     imageUrlList={[
-                        "../../assets/img/lift/abrayly-mebel.JPG",
-                        "../../assets/img/lift/abrayly-mebel1.JPG",
-                        "../../assets/img/lift/abrayly-mebel2.JPG",
-                        "../../assets/img/lift/abrayly-mebel3.JPG",
-                        "../../assets/img/lift/abrayly-mebel4.JPG",
-                        "../../assets/img/lift/abrayly-mebel5.JPG",
-                        "../../assets/img/lift/abrayly-mebel6.JPG",
+                        "..//assets/img/lift/abrayly-mebel.JPG",
+                        "..//assets/img/lift/abrayly-mebel1.JPG",
+                        "..//assets/img/lift/abrayly-mebel2.JPG",
+                        "..//assets/img/lift/abrayly-mebel3.JPG",
+                        "..//assets/img/lift/abrayly-mebel4.JPG",
+                        "..//assets/img/lift/abrayly-mebel5.JPG",
+                        "..//assets/img/lift/abrayly-mebel6.JPG",
                     ]}
                 ></ServiceProject>
             )}
             {activeIndex == 1 && (
                 <ServiceProject
                     title={"Altyn zaman"}
-                    mainImageUrl={"../../assets/img/lift/altyn-zaman.jpg"}
+                    mainImageUrl={"..//assets/img/lift/altyn-zaman.jpg"}
                     location={"Aşgabat, Türkmenistan"}
                     text={
                         "  Baha, hil, göze ýakymlylyk boýunça has amatly we dünýä ülňülerine doly gabat gelýän “SCHINDLER” liftleri, Aşgabat we\
@@ -59,20 +59,20 @@ export default function Lift() {
                                 boýunça sertifikatlary bolan tejribeli hünärmenlerimiz tarapyndan ýerine ýetirilýär."
                     }
                     imageUrlList={[
-                        "../../assets/img/lift/altyn-zaman.jpg",
-                        "../../assets/img/lift/altyn-zaman1.jpg",
-                        "../../assets/img/lift/altyn-zaman2.jpg",
-                        "../../assets/img/lift/altyn-zaman3.jpg",
-                        "../../assets/img/lift/altyn-zaman4.jpg",
-                        "../../assets/img/lift/altyn-zaman5.jpg",
-                        "../../assets/img/lift/altyn-zaman6.jpg",
+                        "..//assets/img/lift/altyn-zaman.jpg",
+                        "..//assets/img/lift/altyn-zaman1.jpg",
+                        "..//assets/img/lift/altyn-zaman2.jpg",
+                        "..//assets/img/lift/altyn-zaman3.jpg",
+                        "..//assets/img/lift/altyn-zaman4.jpg",
+                        "..//assets/img/lift/altyn-zaman5.jpg",
+                        "..//assets/img/lift/altyn-zaman6.jpg",
                     ]}
                 ></ServiceProject>
             )}
             {activeIndex == 2 && (
                 <ServiceProject
                     title={"Aşgabat söwda we dynç alyş merkezi"}
-                    mainImageUrl={"../../assets/img/lift/ashgabat-mall.jpg"}
+                    mainImageUrl={"..//assets/img/lift/ashgabat-mall.jpg"}
                     location={"Aşgabat, Türkmenistan"}
                     text={
                         "  Baha, hil, göze ýakymlylyk boýunça has amatly we dünýä ülňülerine doly gabat gelýän “SCHINDLER” liftleri, Aşgabat we\
@@ -83,17 +83,17 @@ export default function Lift() {
                                 boýunça sertifikatlary bolan tejribeli hünärmenlerimiz tarapyndan ýerine ýetirilýär."
                     }
                     imageUrlList={[
-                        "../../assets/img/lift/ashgabat-mall.jpg",
-                        "../../assets/img/lift/ashgabat-mall1.jpg",
-                        "../../assets/img/lift/ashgabat-mall2.jpg",
-                        "../../assets/img/lift/ashgabat-mall3.jpg",
+                        "..//assets/img/lift/ashgabat-mall.jpg",
+                        "..//assets/img/lift/ashgabat-mall1.jpg",
+                        "..//assets/img/lift/ashgabat-mall2.jpg",
+                        "..//assets/img/lift/ashgabat-mall3.jpg",
                     ]}
                 ></ServiceProject>
             )}
             {activeIndex == 3 && (
                 <ServiceProject
                     title={"Kämil söwda merkezi"}
-                    mainImageUrl={"../../assets/img/lift/kamil.JPG"}
+                    mainImageUrl={"..//assets/img/lift/kamil.JPG"}
                     location={"Aşgabat, Türkmenistan"}
                     text={
                         "  Baha, hil, göze ýakymlylyk boýunça has amatly we dünýä ülňülerine doly gabat gelýän “SCHINDLER” liftleri, Aşgabat we\
@@ -104,9 +104,9 @@ export default function Lift() {
                         boýunça sertifikatlary bolan tejribeli hünärmenlerimiz tarapyndan ýerine ýetirilýär."
                     }
                     imageUrlList={[
-                        "../../assets/img/lift/kamil.JPG",
-                        "../../assets/img/lift/kamil1.jpg",
-                        "../../assets/img/lift/kamil2.jpg",
+                        "..//assets/img/lift/kamil.JPG",
+                        "..//assets/img/lift/kamil1.jpg",
+                        "..//assets/img/lift/kamil2.jpg",
                     ]}
                 ></ServiceProject>
             )}

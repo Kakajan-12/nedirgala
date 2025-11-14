@@ -1,7 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    /* config options here */
-    reactCompiler: true,
-};
+// next.config.mjs
 
-export default nextConfig;
+// 1. Используйте 'import' вместо 'require'
+import createNextIntlPlugin from "next-intl/plugin";
+
+// Укажите путь к вашему i18n-файлу (скорректируйте при необходимости)
+const withNextIntl = createNextIntlPlugin("./i18n.js");
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+// 2. Используйте 'export default' вместо 'module.exports'
+export default withNextIntl(nextConfig);
