@@ -1,31 +1,15 @@
+"use client";
 import ServiceProject from "../../components/ServiceProject";
+import { useTranslations } from "next-intl";
 
 export default function Greenhouse() {
+    const t = useTranslations("greenhouse");
     return (
         <ServiceProject
-            title={"Ýyladyşhana"}
+            title={t("title")}
             mainImageUrl={"/assets/img/greenhouse/teplisa1.JPG"}
-            location={"Türkmenistan, Ahal welaýatynyň Tejen etraby"}
-            text={
-                "Hormatly Prezidentimiziň telekeçilik işini goldamak barada edýän taýsyz tagallalary \
-                netijesinde, ýurdumyzyň \
-                telekeçileriniň işiniň giň möçberli we köpugurly häsiýete eýe bolmagy ýurdumyzda hususy \
-                telekeçiligi höweslendirmek we \
-                goldamak boýunça döwlet tarapyndan durmuşa geçirilýän maksatnamalaýyn çäreleriň oňyn \
-                netije berýändigini \
-                alamatlandyrýar. \
-                Türkmenistanyň Prezidentiniň 2017-nji ýylyň 13-nji ýanwaryndaky PB-7783 belgili buýrugy \
-                bilen tassyklanan, çözgüdine \
-                laýyklykda 09.02.2017ý. seneli №09 belgili hasaba alynan “Döwlet namasy” bilen “Nedir \
-                gala” Hususy kärhanasyna, Ahal \
-                welaýatynyň Tejen etrabynyň çäginde gök önümleri ýetişdirilýän ýyladyşhanany gurmak üçin \
-                39 ýyl möhleti bilen \
-                peýdalanmaga umumy meýdany 7 ga ýer bölegi, bölünip berildi. Häzirki wagtda \
-                ýyladyşhanamyzyň 3.5 gektary hasyl berýär. \
-                Ýyladyşhananyň 3.5 gektaryna 2019-njy ýyldan bäri her ýylda 500 tonnadan gowrak pomidor \
-                hasyly alynýar we önümler içerki \
-                we daşarky bazarlara satylýar. "
-            }
+            location={t("location")}
+            text={t("text")}
             imageUrlList={[
                 "/assets/img/greenhouse/teplisa1.JPG",
                 "/assets/img/greenhouse/teplisa2.JPG",
@@ -41,8 +25,8 @@ export default function Greenhouse() {
                 "/assets/img/greenhouse/teplisa12.JPG",
                 "/assets/img/greenhouse/teplisa13.JPG",
             ]}
-            products={"Pomidor"}
-            area={"7 ga"}
+            products={t("products")}
+            area={t("area")}
         ></ServiceProject>
     );
 }

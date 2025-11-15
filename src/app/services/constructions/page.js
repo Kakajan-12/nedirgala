@@ -1,5 +1,7 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 function ProjectItem({ href, imgSrc, title }) {
     return (
@@ -18,35 +20,40 @@ function ProjectItem({ href, imgSrc, title }) {
 }
 
 export default function ConstructionProjects() {
+    const t = useTranslations("constructions");
     const projects = [
         {
+            id: "giad",
             href: "/services/constructions/project1",
             imgSrc: "/assets/img/construction/giad.png",
-            title: "GIAD-2, GIAD-3, ýyladyjy kotelni we 4 sany podstansiýa",
         },
         {
+            id: "ashgabatTurkmenbashiBridge",
             href: "/services/constructions/project2",
             imgSrc: "/assets/img/construction/bridge.jpg",
-            title: "«Aşgabat – Türkmenbaşy» awtomobil köprüsi",
         },
         {
+            id: "bereketliZaman",
             href: "/services/constructions/project3",
             imgSrc: "/assets/img/construction/Bereketli zaman1.jpg",
-            title: "Bereketli zaman ýaşaýyş jaýy",
         },
         {
+            id: "anewResidential",
             href: "/services/constructions/project4",
             imgSrc: "/assets/img/construction/1A.jpg",
-            title: "Änew ýaşaýyş jaýy",
         },
     ];
 
     return (
         <div className="grid wrap my-4">
-            <h3 className="text-[30px] my-4">Taslamalar</h3>
+            <h3 className="text-[30px] my-4">{t("pageTitle")}</h3>
             <div className="grid grid-cols-3 gap-8 justify-center  my-4 mb-8">
                 {projects.map((project) => (
-                    <ProjectItem key={project.href} {...project} />
+                    <ProjectItem
+                        key={project.href}
+                        {...project}
+                        title={t(`projects.${project.id}.title`)}
+                    />
                 ))}
             </div>
         </div>

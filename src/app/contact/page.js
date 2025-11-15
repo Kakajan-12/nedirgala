@@ -3,34 +3,29 @@
 "use client";
 
 import { Mail, MapPin, Phone } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
+    const t = useTranslations("contact");
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start  ">
             <div className="grid gap-4">
-                <label className="text-[50px] font-bold">
-                    Biziň bilen habarlaşyň
-                </label>
+                <label className="text-[50px] font-bold">{t("title")}</label>
                 <div className="flex items-center gap-6">
                     <MapPin color="green" size={40} />
 
                     <div>
                         <label className="font-bold">
-                            Biziň ýerleşýän ýerimiz
+                            {t("location_title")}
                         </label>
-                        <p>
-                            Türkmenistan, ş.Aşgabat, Köpetdag etraby, 1972
-                            (Atatürk) köçe, j-82, 6 gat, F1
-                        </p>
+                        <p>{t("location_address")}</p>
                     </div>
                 </div>
 
                 <div className="flex gap-6">
                     <Phone color="green" size={40} />
                     <div className="contact__info-text">
-                        <label className="font-bold">
-                            Telefon belgilerimiz
-                        </label>
+                        <label className="font-bold">{t("phone_title")}</label>
                         <p>+993(12)468160</p>
                         <p>+993(12)468161</p>
                         <p>+993(12)468162</p>
@@ -39,7 +34,7 @@ export default function Contact() {
                 <div className="flex items-center gap-6">
                     <Mail color="green" size={40} />
                     <div className="contact__info-text">
-                        <h4>Email adreslarymyz</h4>
+                        <h4 className="font-bold">{t("email_title")}</h4>
                         <p>info@nedir-gala.com</p>
                     </div>
                 </div>

@@ -2,9 +2,10 @@
 /* eslint-disable @next/next/no-img-element */
 
 "use client";
+import { useTranslations } from "next-intl";
 import FancyboxWrapper from "../components/FancyboxWrapper";
 
-export default function ProductBase({
+export default function ServiceProject({
     title,
     text,
     location,
@@ -16,52 +17,49 @@ export default function ProductBase({
     building_type,
     year,
 }) {
+    const t = useTranslations("ServiceProject");
     return (
         <div className="grid gap-4">
             <label className="text-[40px] font-bold">{title}</label>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <img className="rounded-2xl" src={mainImageUrl} alt="" />
-                <div className="grid gap-2 content-start">
-                    <div className="grid gap-4 content-between">
-                        {client && (
-                            <div className="project__text">
-                                <p className="font-bold">Müşderi:</p>
-                                <p>{client}</p>
-                            </div>
-                        )}
-                        {building_type && (
-                            <div className="project__text">
-                                <p className="font-bold">Binaň görnüşi:</p>
-                                <p>{building_type}</p>
-                            </div>
-                        )}
-                        {location && (
-                            <div className="project__text">
-                                <p className="font-bold">Ýerleşýän ýeri:</p>
-                                <p>{location}</p>
-                            </div>
-                        )}
-                        {products && (
-                            <div className="project__text">
-                                <p className="font-bold">Öndürýän önümi:</p>
-                                <p>{products}</p>
-                            </div>
-                        )}
-                        {area && (
-                            <div className="project__text">
-                                <p className="font-bold">Tutýan meýdany:</p>
-                                <p>{area}</p>
-                            </div>
-                        )}
-                        {year && (
-                            <div className="project__text">
-                                <p className="font-bold">
-                                    Ýerine ýetirilen wagty:
-                                </p>
-                                <p>{year}</p>
-                            </div>
-                        )}
-                    </div>
+                <div className="grid gap-4 content-start">
+                    {client && (
+                        <div className="project__text">
+                            <p className="font-bold">{t("client")}:</p>
+                            <p>{client}</p>
+                        </div>
+                    )}
+                    {building_type && (
+                        <div className="project__text">
+                            <p className="font-bold">{t("buildingType")}:</p>
+                            <p>{building_type}</p>
+                        </div>
+                    )}
+                    {location && (
+                        <div className="project__text">
+                            <p className="font-bold">{t("location")}:</p>
+                            <p>{location}</p>
+                        </div>
+                    )}
+                    {products && (
+                        <div className="project__text">
+                            <p className="font-bold">{t("products")}:</p>
+                            <p>{products}</p>
+                        </div>
+                    )}
+                    {area && (
+                        <div className="project__text">
+                            <p className="font-bold">{t("area")}:</p>
+                            <p>{area}</p>
+                        </div>
+                    )}
+                    {year && (
+                        <div className="project__text">
+                            <p className="font-bold">{t("year")}:</p>
+                            <p>{year}</p>
+                        </div>
+                    )}
                     {text && (
                         <div className="">
                             <p>{text}</p>
