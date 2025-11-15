@@ -1,11 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
-/* eslint-disable @next/next/no-img-element */
 export default function Home() {
-    // const translation = useTranslations("Index");
+    const t = useTranslations("home");
+    const ts = useTranslations("services");
 
     return (
         <div>
@@ -15,9 +16,11 @@ export default function Home() {
             >
                 <div className="bg-black/50 text-white bg-opacity-50 w-full h-full rounded-lg flex flex-col items-center justify-center">
                     <h1 className="text-5xl md:text-7xl font-bold">
-                        Nedir Gala
+                        {t("main_title")}
                     </h1>
-                    <h6 className="text-xl md:text-2xl mt-2">hususy kärhana</h6>
+                    <h6 className="text-xl md:text-2xl mt-2">
+                        {t("main_subtitle")}
+                    </h6>
                 </div>
             </section>
 
@@ -31,39 +34,17 @@ export default function Home() {
                         />
                     </div>
                     <div>
-                        <p className="text-gray-600 leading-relaxed ">
-                            “Nedir Gala” Hususy Kärhanasy 2011-nji ýylyň 7-nji
-                            martynda döredildi. “Nedir Gala” Hususy Kärhanasy
-                            Türkmenistanyň Ykdysadyýet we ösüş ministrliginiň
-                            Edara görnüşindäki taraplary we maýa goýum
-                            taslamalaryny döwlet tarapyndan hasaba almak
-                            müdirligi tarapyndan 24.02.2017-nji ýylda berlen
-                            23675020 belgili ýeke-täk döwlet sanawyna girizmek
-                            baradaky şahadatnamasy we Hususy Kärhananyň
-                            Tertipnamasy esasynda telekeçilik işini amala
-                            aşyrýar.“Nedir Gala” Hususy kärhanasy köp ýyllaryň
-                            dowamynda telekeçilik işleriniň görnüşleri bilen
-                            meşgullanyp, bu ugurda netijeli görkezijileri
-                            gazanyp gelýär. Kärhana özüne berilen degişli
-                            ygtyýarnamalary laýyklykda, birnäçe desgalaryň
-                            gurluşyk işlerini ýerine ýetirdi. Olardan
-                            2011-2012-nji ýyllarda “Türkmenistanda ýerleşen
-                            HHR-nyň CNPC kompaniýasynyň ýanyndaky jogapkärçiligi
-                            çäklendirilen Çuansin buraw inžener kompaniýasynyň”
-                            buýurmagynda Mary welaýatynyň Ýolöten etrabynda
-                            “UPPK2”,”UPPK3” we “4 sany potstansiýa binasy”
-                            hem-de “Bug gazan binasynyň binýady” uly göwrümli
-                            binalarynyň gurluşyk-gurnama işlerini ýerine
-                            ýetirdi. Mundan başga-da 2018-nji ýylda baglaşylan
-                            şertnama laýyklykda, “Türkmenistanyň “Bagtyýarlyk”
-                            ylalaşylan meýdançasynda Demirýolunyň aşagyndan
-                            turba geçirmek boýunça gurluşyk işleri” desgasy...
+                        <h3 className="text-3xl font-bold mb-4">
+                            {t("about_section_title")}
+                        </h3>
+                        <p className="text-gray-600 leading-relaxed line-clamp-6 ">
+                            {t("about_section_description")}
                         </p>
                         <Link
                             href="/about"
                             className="mt-4 inline-block text-blue-600 hover:underline"
                         >
-                            Giňişleýin
+                            {t("about_section_more")}
                         </Link>
                     </div>
                 </div>
@@ -71,38 +52,39 @@ export default function Home() {
 
             <section className="py-16">
                 <div className="text-center">
-                    <h3 className="text-3xl font-bold mb-8">Hyzmatlarymyz</h3>
+                    <h3 className="text-3xl font-bold mb-8">
+                        {t("services_section_title")}
+                    </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         <ServiceItem
                             href="/greenhouse"
                             imgUrl={"/assets/img/lift/lift1.png"}
-                            name={"Lift"}
-                        ></ServiceItem>
-
+                            name={ts("lift")}
+                        />
                         <ServiceItem
                             href="/greenhouse"
                             imgUrl="/assets/img/greenhouse/teplisa1.JPG"
-                            name="Teplisa"
+                            name={ts("greenhouse")}
                         />
                         <ServiceItem
                             href="/products"
                             imgUrl="/assets/img/products/ketchup_main.jpg"
-                            name="Önümler"
+                            name={ts("products")}
                         />
                         <ServiceItem
                             href="/tomate"
                             imgUrl="/assets/img/tomato_plant/tomato2.jpg"
-                            name="Tomat zawody"
+                            name={ts("tomate")}
                         />
                         <ServiceItem
                             href="/construction"
                             imgUrl="/assets/img/construction/construction6.png"
-                            name="Gurluşyk"
+                            name={ts("constructions")}
                         />
                         <ServiceItem
                             href="/technics"
                             imgUrl="/assets/img/technics/tehnika20.JPG"
-                            name="Tehnikalar"
+                            name={ts("technics")}
                         />
                     </div>
                 </div>

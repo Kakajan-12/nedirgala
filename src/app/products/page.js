@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+
 /* eslint-disable @next/next/no-img-element */
 function ProductItem({
     name,
@@ -32,6 +34,8 @@ function ProductItem({
 }
 
 export default function Products() {
+    const translation = useTranslations("home");
+
     // Shared text for all Pomidor üwmeji products
     const tomatoText = `Pomidor goýutmasy, şeker, ýeralma peti, nahar duzy, konserwantlar: kaliý sorbaty E202, sirke turşusy E260, ýakymly ysly ösümlikler: reýhan, şibit, ter arpabadyýyn. Ereýän gury maddalaryň agramlaýyn paýy 23% 100g. önümiň iýmitlik gymmaty: uglewodlar -24.6g. Kuwwatlyk gymmaty - 98.4 kkal.`;
     // Shared text for all Ajy üwmeç products
@@ -49,7 +53,9 @@ export default function Products() {
                     />
                 </div>
                 <div className="my-8">
-                    <label className="text-[30px] font-bold">Önümler</label>
+                    <label className="text-[30px] font-bold">
+                        {translation("products")}
+                    </label>
                 </div>
                 <div className="products grid grid-cols-3 gap-10 my-6">
                     <ProductItem

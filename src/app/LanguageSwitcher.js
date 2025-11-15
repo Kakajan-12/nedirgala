@@ -13,7 +13,9 @@ export default function LanguageSwitcher() {
 
     const onFlagClick = (lang) => {
         startTransition(async () => {
-            setLanguage(lang); // 1. Update client-side state immediately
+            // Update client-side state immediately for responsive UI
+            setLanguage(lang);
+            // Set the cookie and then refresh the page for server components
             await setLanguageCookie(lang);
             router.refresh();
         });

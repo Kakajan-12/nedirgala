@@ -19,6 +19,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
     const messages = useMessages();
     const translation = useTranslations("home");
+    const serviceTranlation = useTranslations("services");
+
     return (
         <html>
             <body className="max-w-[1400px] mx-auto px-2">
@@ -48,31 +50,31 @@ export default function RootLayout({ children }) {
                                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
                                             href="/services/lift"
                                         >
-                                            Lift
+                                            {serviceTranlation("lift")}
                                         </Link>
                                         <Link
                                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
                                             href="/services/greenhouse"
                                         >
-                                            Ýyladyşhana
+                                            {serviceTranlation("greenhouse")}
                                         </Link>
                                         <Link
                                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
                                             href="/services/tomate"
                                         >
-                                            Tomat zawody
+                                            {serviceTranlation("tomate")}
                                         </Link>
                                         <Link
                                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
                                             href="/services/constructions"
                                         >
-                                            Gurluşyk
+                                            {serviceTranlation("constructions")}
                                         </Link>
                                         <Link
                                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 duration-200"
                                             href="/services/technics"
                                         >
-                                            Tehnikalar
+                                            {serviceTranlation("technics")}
                                         </Link>
                                     </div>
                                 </div>
@@ -80,25 +82,25 @@ export default function RootLayout({ children }) {
                                     className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
                                     href="/products"
                                 >
-                                    Önümler
+                                    {translation("products")}
                                 </Link>
                                 <Link
                                     className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
                                     href="/product_base"
                                 >
-                                    Önümçilik bazasy
+                                    {translation("production_base")}
                                 </Link>
                                 <Link
                                     className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
                                     href="/about"
                                 >
-                                    Biz barada
+                                    {translation("about_us")}
                                 </Link>
                                 <Link
                                     className="text-gray600 duration-200 p-2 hover:bg-gray-200 rounded-md"
                                     href="/contact"
                                 >
-                                    Kontakt
+                                    {translation("contact")}
                                 </Link>
                             </div>
                         </nav>
@@ -110,7 +112,7 @@ export default function RootLayout({ children }) {
 
                     <div className="mx-auto px-4 text-center py-4 bg-gray-100 rounded-2xl my-4">
                         <h3 className="text-3xl font-bold mb-8">
-                            Hyzmatdaşlarymyz
+                            {translation("partners_section_title")}
                         </h3>
                         <div className="flex justify-center items-center space-x-12">
                             <img
