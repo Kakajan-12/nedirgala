@@ -10,59 +10,56 @@ export default function Home() {
 
     return (
         <div>
-            <section
-                className="relative h-screen flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden rounded-2xl max-h-[300px] md:max-h-[800px]"
+            <div
+                className="relative flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden h-[100vh]"
                 style={{ backgroundImage: "url('/assets/img/berkarar.jpg')" }}
             >
-                <div className="bg-black/50 text-white bg-opacity-50 w-full h-full rounded-lg flex flex-col items-center justify-center">
-                    <h1 className="text-5xl md:text-7xl font-bold">
-                        {t("main_title")}
+                <div className="bg-black/41 text-white bg-opacity-50 w-full h-full rounded-lg flex flex-col items-center justify-center">
+                    <h1 className="text-[96px] font-medium uppercase">
+                        Nedir gala
                     </h1>
                     <h6 className="text-xl md:text-2xl mt-2">
                         {t("main_subtitle")}
                     </h6>
                 </div>
-            </section>
+            </div>
 
-            <section className="py-16 ">
-                <div className="grid md:grid-cols-2 gap-8 content-start">
-                    <div>
-                        <img
-                            src="/assets/img/berkarar.jpg"
-                            alt="nedir gala"
-                            className="rounded-2xl overflow-hidden w-full"
-                        />
-                    </div>
-                    <div>
-                        <h3 className="text-3xl font-bold mb-4">
-                            {t("about_section_title")}
-                        </h3>
-                        <p className="text-gray-600 leading-relaxed line-clamp-6 ">
+            <section className="py-16 px-[55px]">
+                <div className="grid md:grid-cols-2 gap-2.5">
+                    <div className="bg-white rounded-[15px] p-4 grid gap-[25px]">
+                        <p className="text-gray-600 leading-relaxed text-[16px] line-clamp-17 mt-[52px]">
                             {t("about_section_description")}
                         </p>
                         <Link
                             href="/about"
-                            className="mt-4 inline-block text-blue-600 hover:underline"
+                            className="mt-4 w-max h-max inline-block text-[#969494] border border-[#969595] text-[25px] rounded-lg p-2.5"
                         >
                             {t("about_section_more")}
                         </Link>
+                    </div>
+                    <div>
+                        <img
+                            src="/assets/img/berkarar.jpg"
+                            alt="nedir gala"
+                            className="h-full"
+                        />
                     </div>
                 </div>
             </section>
 
             <section className="py-16">
                 <div className="text-center">
-                    <h3 className="text-3xl font-bold mb-8">
+                    <h3 className="text-3xl font-bold mb-8 text-[50px]">
                         {t("services_section_title")}
                     </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-[55px]">
                         <ServiceItem
-                            href="/greenhouse"
+                            href="/services/lift"
                             imgUrl={"/assets/img/lift/lift1.png"}
                             name={ts("lift")}
                         />
                         <ServiceItem
-                            href="/greenhouse"
+                            href="/services/greenhouse"
                             imgUrl="/assets/img/greenhouse/teplisa1.JPG"
                             name={ts("greenhouse")}
                         />
@@ -72,17 +69,17 @@ export default function Home() {
                             name={ts("products")}
                         />
                         <ServiceItem
-                            href="/tomate"
+                            href="/services/tomate"
                             imgUrl="/assets/img/tomato_plant/tomato2.jpg"
                             name={ts("tomate")}
                         />
                         <ServiceItem
-                            href="/construction"
+                            href="/services/constructions"
                             imgUrl="/assets/img/construction/construction6.png"
                             name={ts("constructions")}
                         />
                         <ServiceItem
-                            href="/technics"
+                            href="/services/technics"
                             imgUrl="/assets/img/technics/tehnika20.JPG"
                             name={ts("technics")}
                         />
@@ -95,17 +92,17 @@ export default function Home() {
 
 function ServiceItem({ name, imgUrl, href }) {
     return (
-        <a href={href} className="group block">
-            <div className="relative overflow-hidden rounded-lg shadow-lg">
+        <Link href={href} className="group block ">
+            <div className="overflow-hidden aspect-square rounded-[15px] grid grid-rows-[70%_30%] bg-white">
                 <img
                     src={imgUrl}
                     alt={name}
-                    className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-cover group-hover:scale-110 duration-300"
                 />
-                <p className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-50 text-slate-600 p-4 text-lg font-semibold">
+                <label className="text-slate-600 font-semibold align-middle items-center text-[35px] h-max m-auto">
                     {name}
-                </p>
+                </label>
             </div>
-        </a>
+        </Link>
     );
 }

@@ -1,5 +1,5 @@
 
-
+@import '@fontsource/source-serif-pro/index.css';
 
 @import "tailwindcss";
 
@@ -25,6 +25,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Manrope Variable";
+  /* font-family: "Manrope Variable"; */
+  font-family: "Source Serif Pro";
 
 }

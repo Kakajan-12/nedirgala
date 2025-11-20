@@ -3,73 +3,85 @@
         "title": "Nedir Gala",
         "services": "Services",
         "products": "Products",
-        "production_base": "Industrial base",
-        "about_us": "About us",
-        "contact": "Contacts",
+        "production_base": "Production Base",
+        "about_us": "About Us",
+        "contact": "Contact",
         "main_title": "Nedir Gala",
         "main_subtitle": "private enterprise",
         "about_section_title": "About Us",
-        "about_section_description": "Private Enterprise \"Nedir Gala\" was established on March 7, 2011. The private enterprise \"Nedir Gala\" operates on the basis of the Certificate of making an entry in the Unified State Register No. 23675020 issued by the Department of State Registration of Institutional Aspects and Investment Projects of the Ministry of Economy and Development of Turkmenistan on February 24, 2017 and the Charter of the private enterprise Private Enterprise \"Nedir Gala\" has been engaged in entrepreneurial activity for many years and has achieved effective results in this area. In accordance with the relevant licenses, the enterprise completed the construction of several facilities. Among them, in 2011-2012, \"UPPK2\", \"UPPK3\" and \"4 substation buildings\" and \"Foundation of the building of the steam boiler house\" in the Yoloten district of Mary velayat by order of the \"Chuangxing Drilling Engineering Company with Limited Liability under CNPC\" Company HHR, located in Turkmenistan\" carried out the construction and installation of large-scale buildings. In addition, in accordance with the contract concluded in 2018, he completed the work on laying pipelines at the site \"Construction work on laying pipelines under the railway in the agreed area of Turkmenistan\" Bakhtyyarlyk \". At present, an appropriate contract has been signed for the execution of construction work on the project of laying a pipeline under the railway and highways at the agreed Bakhtiyarlyk section, and work has begun on the implementation of these works. In 2014-2016, by order of the khyakimlik of the Akhal velayat, by order of the Akhal velayat, the construction of 40 mortgage houses began in the village of Bereketli Zaman, on the territory of the Gaver Council of the Ak Bugday etrap of the Akhal velayat, and work was also carried out on the construction of several bridges on the river. - Turkmenabat highway in 2015 by order of the state concern \"Turkmenavtoyollary\". In addition, the construction of cottage-type residential buildings was carried out by the enterprise in 2019-2022 in the city of Anev, Akhal velayat. 02/09/2017, approved by the order of the President of Turkmenistan No. PB-7783 dated January 13, 2017. The private enterprise \"Nedir Gala\" was allocated a land plot with a total area of 7 hectares for a period of 39 years for the construction of a greenhouse for growing vegetables in the Tejen etrap of the Akhal velayat with the State Register number 09. In accordance with the \"State program for the production of substitutes for goods imported into Turkmenistan\" of the President of Turkmenistan completed and put into operation the 1st stage of the greenhouse and production workshop on the allotted land plot of 3.5 hectares. , and construction work is underway on the remaining 3.5 hectares. Tomatoes are planted on 3.5 hectares of the greenhouse and are yielding. In total, 2100 ha out of 600 ha for 38 (thirty eight) heads of cattle and 1500 ha for 209 (two hundred nine) heads of small cattle, on the basis of the Presidential Decree on the regular use and privatization of pastures, the Administration of Tejen etrap allocated pastures from the daikhan association \"Dostluk » Tejen etrap and the territory of the farmer association named after B. Kerbabaev of Tejen etrap. In addition, a request was sent to the relevant authorities for the purchase of 200 hectares of land near 7 hectares of a greenhouse, as well as 70 hectares of land in Ak Bugday etrap, Akhal velayat. All relevant agreements on them have been received in full. Currently, these documents have been sent to the State Commission for Land Acquisition. Orders have been issued for the purchase of the world's leading agricultural machinery for the development of land and obtaining a bountiful harvest from them. In accordance with the orders, we received a complete set of John Deer agricultural machinery. Private enterprise \"Nedir Gala\" is the official language of the Swiss elevator manufacturer \"SCHINDLER Elevator CO. Ltd\" in Turkmenistan. The Swiss company SCHINDLER Elevator CO. Ltd. is one of the world's leading elevator companies, founded in 1874 by Robert Schindler and Eduard Villiger in Switzerland.",
-        "about_section_more": "More",
-        "services_section_title": "Our services",
-        "partners_section_title": "Our partners"
+        "about_section_description": "The private enterprise 'Nedir Gala' was established on March 7, 2011. It operates based on the Certificate of Entry into the Unified State Register No. 23675020, issued by the State Registration Department for Institutional Aspects and Investment Projects of the Ministry of Economy and Development of Turkmenistan on February 24, 2017, and its own charter. 'Nedir Gala' has been engaged in entrepreneurial activities for many years, achieving effective results. The company has completed the construction of several facilities under relevant licenses. This includes the construction and installation of large-scale buildings for 'UPPK2', 'UPPK3', '4 substation buildings', and the 'Foundation of the steam boiler building' in the Yoloten district of Mary velayat, commissioned by 'Chuangxing Drilling Engineering Company with Limited Liability under CNPC' in Turkmenistan between 2011-2012. Additionally, under a 2018 contract, it carried out pipeline laying work for the 'Construction work for laying pipelines under the railway in the agreed area of Turkmenistan 'Bakhtiyarlyk''. Currently, a contract has been signed for construction work on a project to lay a pipeline under the railway and highways in the agreed 'Bakhtiyarlyk' section, and work has begun. From 2014-2016, commissioned by the Akhal velayat khyakimlik, construction began on 40 mortgage houses in the village of Bereketli Zaman, and several bridges were built on the Turkmenabat highway in 2015, commissioned by the state concern 'Turkmenavtoyollary'. The company also constructed cottage-type residential buildings in the city of Anew, Akhal velayat, from 2019-2022. 'Nedir Gala' was allocated a 7-hectare plot of land for 39 years to build a greenhouse for growing vegetables in the Tejen district of Akhal velayat. In accordance with the 'State Program for the Production of Import-Substituting Goods in Turkmenistan,' the first stage of the greenhouse and production workshop on a 3.5-hectare plot has been completed and put into operation, with construction ongoing on the remaining 3.5 hectares. Tomatoes are planted and harvested in the 3.5-hectare greenhouse. The Tejen district administration has allocated pastures for livestock. Requests have been sent to acquire an additional 200 hectares of land near the greenhouse and 70 hectares in the Ak Bugday district. Orders have been placed for world-leading agricultural machinery to develop the land. 'Nedir Gala' is the official representative of the Swiss elevator manufacturer 'SCHINDLER Elevator CO. Ltd' in Turkmenistan.",
+        "about_section_more": "Read More",
+        "services_section_title": "Our Services",
+        "partners_section_title": "Our Partners"
     },
     "services": {
         "lift": "Elevator",
         "greenhouse": "Greenhouse",
-        "tomate": "Tomato plant",
+        "tomate": "Tomato Plant",
         "constructions": "Construction",
-        "technics": "Technics",
+        "technics": "Machinery",
         "products": "Products"
     },
     "footer": {
-        "copyright": "Nedir Gala"
+        "copyright": "Nedir Gala",
+        "navigation": "Navigation"
     },
     "products": {
-        "page_title": "Products",
+        "detail": "Details",
+        "weight": "Net Weight",
+        "page_title": "Our Products",
+        "page_subtitle": "Catalog of ketchups based on natural tomatoes",
         "tomato_paste": "Tomato Paste",
         "spicy_paste": "Spicy Paste",
         "net_weight": "Net Weight",
         "container": "Container",
         "composition": "Composition",
-        "storage_condition": "Storage Condition",
+        "storage_condition": "Storage Conditions",
         "storage_condition_value": "from 0°C to +6°C",
-        "no_gmo": "Does not contain GMO. High quality.",
-        "shelf_life": "Shelf life",
+        "no_gmo": "Does not contain GMOs. High quality.",
+        "shelf_life": "Shelf Life",
         "shelf_life_value": "6 months",
         "quantity": "Quantity",
-        "tomato_paste_description": "Tomato concentrate, sugar, potato starch, table salt, preservatives: potassium sorbate E202, acetic acid E260, aromatic herbs: basil, dill, fresh parsley. Mass fraction of soluble solids 23%. 100g nutritional value: carbohydrates - 24.6g. Energy value - 98.4 kcal.",
-        "spicy_paste_description": "Tomato concentrate, sugar, potato starch, table salt, preservatives: potassium sorbate E202, acetic acid E260, aromatic herbs: basil, fresh dill, ground red pepper, ground black pepper, fresh parsley. Mass fraction of soluble solids 23%. 100g nutritional value: carbohydrates - 24.6g. Energy value - 98.4 kcal.",
+        "tomato_paste_description": "Tomato concentrate, sugar, potato starch, table salt, preservatives: potassium sorbate E202, acetic acid E260, aromatic herbs: basil, dill, fresh parsley. Mass fraction of soluble solids 23%. Nutritional value per 100g: carbohydrates - 24.6g. Energy value - 98.4 kcal.",
+        "spicy_paste_description": "Tomato concentrate, sugar, potato starch, table salt, preservatives: potassium sorbate E202, acetic acid E260, aromatic herbs: basil, fresh dill, ground red pepper, ground black pepper, fresh parsley. Mass fraction of soluble solids 23%. Nutritional value per 100g: carbohydrates - 24.6g. Energy value - 98.4 kcal.",
         "container_pet": "PET",
         "container_plastic": "Plastic",
-        "quantity_in_block": "{count} pieces in a block",
-        "download_catalog": "Download Catalog"
+        "quantity_in_block": "{count} pieces per block",
+        "download_catalog": "Download Catalog",
+        "packaging": "Packaging",
+        "nutritional_value": "Nutritional value per 100g of product:",
+        "carbohydrates": "Carbohydrates - 24.6g.",
+        "energy_value": "Energy value - 98.4 kcal.",
+        "high_quality": "High Quality:",
+        "high_quality_desc": "The mass fraction of dissolved solids is 23%.",
+        "order_guarantee": "Order Guarantee"
     },
     "product_base": {
         "page_title": "Production Base",
-        "location_label": "Location:",
-        "location_value": "Turkmenistan, Ak Bugday district of Ahal velayat",
-        "product_label": "Manufactured product:",
+        "location_label": "Location",
+        "location_value": "Turkmenistan, Ak Bugday district of Akhal velayat",
+        "product_label": "Product:",
         "area_label": "Area:",
         "area_value": "2.08 ha",
-        "description": "In accordance with the Investment Agreement No. 6/4 dated November 13, 2013, concluded between the Union of Industrialists and Entrepreneurs of Turkmenistan and the private enterprise 'Nedir Gala', a land plot with a total area of 2.08 ha was allocated to the private enterprise 'Nedir Gala' from the industrial zone located in the Ak Bugday district of Ahal velayat. Currently, the construction of relevant facilities, warehouses, and production workshops on the allocated land plot is in the final stage."
+        "description": "In accordance with Investment Agreement No. 6/4 of November 13, 2013, between the Union of Industrialists and Entrepreneurs of Turkmenistan and the private enterprise 'Nedir Gala', a land plot of 2.08 ha was allocated from the industrial zone in the Ak Bugday district of Akhal velayat. Currently, the construction of facilities, warehouses, and production workshops on the allocated land is in its final stages."
     },
     "contact": {
         "title": "Contact Us",
-        "location_title": "Our location",
-        "location_address": "Turkmenistan, Ashgabat, Kopetdag etrap, 1972 (Ataturk) street, b-82, 6th floor, F1",
-        "phone_title": "Our phone numbers",
+        "location_title": "Our Location",
+        "location_address": "Turkmenistan, Ashgabat, Kopetdag etrap, 1972 (Ataturk) street, building 82, 6th floor, F1",
+        "phone_title": "Our Phone Numbers",
         "phone_1": "+993(12)468160",
         "phone_2": "+993(12)468161",
         "phone_3": "+993(12)468162",
-        "email_title": "Our email addresses",
+        "email_title": "Our Email Addresses",
         "email": "info@nedir-gala.com"
     },
     "about": {
-        "description": "Private Enterprise \"Nedir Gala\" was established on March 7, 2011. The private enterprise \"Nedir Gala\" operates on the basis of the Certificate of making an entry in the Unified State Register No. 23675020 issued by the Department of State Registration of Institutional Aspects and Investment Projects of the Ministry of Economy and Development of Turkmenistan on February 24, 2017 and the Charter of the private enterprise. Private Enterprise \"Nedir Gala\" has been engaged in entrepreneurial activity for many years and has achieved effective results in this area. In accordance with the relevant licenses, the enterprise completed the construction of several facilities. Among them, in 2011-2012, \"UPPK2\", \"UPPK3\" and \"4 substation buildings\" and \"Foundation of the building of the steam boiler house\" in the Yoloten district of Mary velayat by order of the \"Chuangxing Drilling Engineering Company with Limited Liability under CNPC\" Company HHR, located in Turkmenistan\" carried out the construction and installation of large-scale buildings. In addition, in accordance with the contract concluded in 2018, he completed the work on laying pipelines at the site \"Construction work on laying pipelines under the railway in the agreed area of Turkmenistan\" Bakhtyyarlyk \". At present, an appropriate contract has been signed for the execution of construction work on the project of laying a pipeline under the railway and highways at the agreed Bakhtiyarlyk section, and work has begun on the implementation of these works. In 2014-2016, by order of the khyakimlik of the Akhal velayat, by order of the Akhal velayat, the construction of 40 mortgage houses began in the village of Bereketli Zaman, on the territory of the Gaver Council of the Ak Bugday etrap of the Akhal velayat, and work was also carried out on the construction of several bridges on the river. - Turkmenabat highway in 2015 by order of the state concern \"Turkmenavtoyollary\". In addition, the construction of cottage-type residential buildings was carried out by the enterprise in 2019-2022 in the city of Anev, Akhal velayat. 02/09/2017, approved by the order of the President of Turkmenistan No. PB-7783 dated January 13, 2017. The private enterprise \"Nedir Gala\" was allocated a land plot with a total area of 7 hectares for a period of 39 years for the construction of a greenhouse for growing vegetables in the Tejen etrap of the Akhal velayat with the State Register number 09. In accordance with the \"State program for the production of substitutes for goods imported into Turkmenistan\" of the President of Turkmenistan completed and put into operation the 1st stage of the greenhouse and production workshop on the allotted land plot of 3.5 hectares. , and construction work is underway on the remaining 3.5 hectares. Tomatoes are planted on 3.5 hectares of the greenhouse and are yielding. In total, 2100 ha out of 600 ha for 38 (thirty eight) heads of cattle and 1500 ha for 209 (two hundred nine) heads of small cattle, on the basis of the Presidential Decree on the regular use and privatization of pastures, the Administration of Tejen etrap allocated pastures from the daikhan association \"Dostluk » Tejen etrap and the territory of the farmer association named after B. Kerbabaev of Tejen etrap. In addition, a request was sent to the relevant authorities for the purchase of 200 hectares of land near 7 hectares of a greenhouse, as well as 70 hectares of land in Ak Bugday etrap, Akhal velayat. All relevant agreements on them have been received in full. Currently, these documents have been sent to the State Commission for Land Acquisition. Orders have been issued for the purchase of the world's leading agricultural machinery for the development of land and obtaining a bountiful harvest from them. In accordance with the orders, we received a complete set of John Deer agricultural machinery."
+        "about": "About Us",
+        "description": "The Private Enterprise 'Nedir Gala' was established on March 7, 2011. It operates based on the Certificate of Entry into the Unified State Register No. 23675020, issued by the State Registration Department for Institutional Aspects and Investment Projects of the Ministry of Economy and Development of Turkmenistan on February 24, 2017, and its own charter. 'Nedir Gala' has been engaged in entrepreneurial activities for many years, achieving effective results. The company has completed the construction of several facilities under relevant licenses. This includes the construction and installation of large-scale buildings for 'UPPK2', 'UPPK3', '4 substation buildings', and the 'Foundation of the steam boiler building' in the Yoloten district of Mary velayat, commissioned by 'Chuangxing Drilling Engineering Company with Limited Liability under CNPC' in Turkmenistan between 2011-2012. Additionally, under a 2018 contract, it carried out pipeline laying work for the 'Construction work for laying pipelines under the railway in the agreed area of Turkmenistan 'Bakhtiyarlyk''. Currently, a contract has been signed for construction work on a project to lay a pipeline under the railway and highways in the agreed 'Bakhtiyarlyk' section, and work has begun. From 2014-2016, commissioned by the Akhal velayat khyakimlik, construction began on 40 mortgage houses in the village of Bereketli Zaman, and several bridges were built on the Turkmenabat highway in 2015, commissioned by the state concern 'Turkmenavtoyollary'. The company also constructed cottage-type residential buildings in the city of Anew, Akhal velayat, from 2019-2022. 'Nedir Gala' was allocated a 7-hectare plot of land for 39 years to build a greenhouse for growing vegetables in the Tejen district of Akhal velayat. In accordance with the 'State Program for the Production of Import-Substituting Goods in Turkmenistan,' the first stage of the greenhouse and production workshop on a 3.5-hectare plot has been completed and put into operation, with construction ongoing on the remaining 3.5 hectares. Tomatoes are planted and harvested in the 3.5-hectare greenhouse. The Tejen district administration has allocated pastures for livestock. Requests have been sent to acquire an additional 200 hectares of land near the greenhouse and 70 hectares in the Ak Bugday district. Orders have been placed for world-leading agricultural machinery to develop the land. 'Nedir Gala' is the official representative of the Swiss elevator manufacturer 'SCHINDLER Elevator CO. Ltd' in Turkmenistan."
     },
     "lift": {
-        "text": "\"SCHINDLER\" elevators are optimal in terms of price, quality, and design, fully meeting international standards. Currently, they are installed and used in several major residential and socially significant projects in the cities of Ashgabat and Arkadag, as well as in the provinces of the country. For the installation of these world-renowned and high-quality elevators, and to ensure safe and uninterrupted elevator operation in multi-story residential buildings and facilities, our enterprise provides maintenance services. These services are performed by our qualified specialists who have undergone special training abroad and hold the appropriate certification.",
+        "text": "'SCHINDLER' elevators are optimal in price, quality, and design, fully complying with world standards. They are currently installed and used in several large residential and socially significant facilities in Ashgabat and Arkadag cities, as well as in the country's velayats. Our qualified specialists, who have undergone special training abroad and hold relevant certificates, provide maintenance services for these high-quality elevators to ensure safe and uninterrupted operation in multi-story residential buildings and facilities.",
         "Ashgabat": "Ashgabat",
         "Turkmenistan": "Turkmenistan",
         "projects": {
@@ -80,7 +92,7 @@
                 "title": "Altyn Zaman"
             },
             "ashgabatMall": {
-                "title": "Ashgabat Shopping and Recreation Center"
+                "title": "Ashgabat Shopping and Entertainment Center"
             },
             "kamilMarket": {
                 "title": "Kamil Shopping Center"
@@ -96,37 +108,38 @@
         "location": "Location",
         "products": "Products",
         "area": "Area",
-        "year": "Completion Date"
+        "year": "Completion Date",
+        "gallery": "Gallery"
     },
     "constructions": {
-        "pageTitle": "Projects",
+        "pageTitle": "Our Projects",
         "projects": {
-            "giad": {
+            "1": {
                 "title": "GIAD-2, GIAD-3, heating boiler and 4 substations"
             },
-            "ashgabatTurkmenbashiBridge": {
-                "title": "«Ashgabat – Turkmenbashi» highway bridge"
+            "2": {
+                "title": "Ashgabat – Turkmenbashi highway bridge"
             },
-            "bereketliZaman": {
-                "title": "Bereketli zaman residential building"
+            "3": {
+                "title": "Bereketli Zaman residential building"
             },
-            "anewResidential": {
-                "title": "Änew residential building"
+            "4": {
+                "title": "Residential building in Anau"
             }
         }
     },
     "greenhouse": {
-        "title": "Greenhouse",
-        "location": "Turkmenistan, Tejen district of Ahal velayat",
-        "text": "As a result of the tireless efforts of our esteemed President to support entrepreneurial activity, the large-scale and multifaceted nature of our country's entrepreneurs' work indicates the positive results of state-implemented programmatic measures to encourage and support private entrepreneurship in our country. In accordance with the decision approved by the order of the President of Turkmenistan No. PB-7783 dated January 13, 2017, the State Act registered under No. 09 dated 09.02.2017 was granted to the 'Nedir gala' Private Enterprise, allocating a total area of 7 hectares of land for a period of 39 years for the construction of a greenhouse for growing vegetables in the Tejen district of Ahal velayat. Currently, 3.5 hectares of our greenhouse are yielding crops. Since 2019, more than 500 tons of tomato harvest are obtained annually from the 3.5 hectares of the greenhouse, and the products are sold to domestic and foreign markets.",
+        "title": "Our Greenhouse Complex",
+        "location": "Turkmenistan, Tejen district of Akhal velayat",
+        "text": "As a result of the tireless efforts of our esteemed President to support entrepreneurial activity, the large-scale and multifaceted nature of the work of our country's entrepreneurs indicates the positive results of state program measures to stimulate and support private entrepreneurship. In accordance with the decision approved by the order of the President of Turkmenistan No. PB-7783 of January 13, 2017, the Private Enterprise 'Nedir Gala' was allocated a land plot of 7 hectares for 39 years for the construction of a greenhouse for growing vegetables in the Tejen district of Akhal velayat. Currently, 3.5 hectares of our greenhouse are yielding crops. Since 2019, more than 500 tons of tomato harvest are collected annually from 3.5 hectares of the greenhouse, and the products are sold in domestic and foreign markets.",
         "products": "Tomato",
         "area": "7 ha"
     },
     "tomate": {
-        "title": "Tomato Plant",
-        "location": "Turkmenistan, Tejen district of Ahal velayat",
-        "text": "In accordance with the decision approved by the order of the President of Turkmenistan No. PB-7783 dated January 13, 2017, the State Act registered under No. 09 dated 09.02.2017 was granted to the 'Nedir gala' Private Enterprise, allocating a total area of 7 hectares of land for a period of 39 years for the construction of a greenhouse for growing vegetables in the Tejen district of Ahal velayat. Currently, 3.5 hectares of our greenhouse are yielding crops. On the allocated land, the construction of the greenhouse and the production workshop has been completed and put into operation. Currently, the greenhouse and production workshop are operational, producing 'Dayhan' brand tomato and ketchup products. Additionally, pickled melon products are bottled in glass containers. In the future, it is planned to establish mayonnaise production.",
-        "products": "Tomato and ketchup",
+        "title": "Our Tomato Plant",
+        "location": "Turkmenistan, Tejen district of Akhal velayat",
+        "text": "In accordance with the decision approved by the order of the President of Turkmenistan No. PB-7783 of January 13, 2017, the Private Enterprise 'Nedir Gala' was allocated a land plot of 7 hectares for 39 years for the construction of a greenhouse for growing vegetables in the Tejen district of Akhal velayat. Currently, 3.5 hectares of our greenhouse are yielding crops. The construction of the greenhouse and production workshop on the allocated plot has been completed and put into operation. The greenhouse and workshop are currently functioning, producing tomato and ketchup products under the 'Dayhan' brand. In addition, pickled melon products are bottled in glass containers. In the future, it is planned to establish mayonnaise production.",
+        "products": "Tomato and Ketchup",
         "area": "7 ha"
     },
     "technics": {

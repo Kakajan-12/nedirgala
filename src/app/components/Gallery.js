@@ -10,7 +10,7 @@ export default function Gallery({ images = [] }) {
                     return (
                         <a
                             key={index}
-                            className="rounded-2xl overflow-hidden aspect-square border border-gray-200"
+                            className="overflow-hidden aspect-square border border-gray-200"
                             data-fancybox="gallery"
                             data-src={item}
                         >

@@ -4,16 +4,21 @@ import { useTranslations } from "next-intl";
 export default function About() {
     const translation = useTranslations("about");
     return (
-        <div className="container">
-            <div className="about-page__body">
-                <div className="about-page__content">
+        <div className="">
+            <div className="">
+                <div className="w-full relative overflow-hidden h-[80vh]">
                     <img
-                        className="rounded-2xl mx-auto my-8"
+                        className="w-full h-full object-cover"
                         src="/assets/img/berkarar.jpg"
                         alt="nedir gala"
                     />
+                    <div className="absolute bg-black/20 top-0 w-full h-full grid content-end">
+                        <label className="text-[65px] text-white px-[55px] py-[85px]">
+                            {translation("about")}
+                        </label>
+                    </div>
                 </div>
-                <div className="about-page__content">
+                <div className="m-[55px] p-[65px] bg-white rounded-2xl">
                     <p className="my-6">{translation("description")}</p>
                 </div>
             </div>

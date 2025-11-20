@@ -13,10 +13,10 @@ export default function Tab({ onChange = (index) => {}, buttons = [] }) {
                             setActiveIndex(index);
                         }}
                         className={
-                            "py-2 px-4 rounded-full  hover:bg-green-600 hover:text-white border border-slate-300 duration-200 " +
+                            "py-2 px-4 rounded-full text-[#1F1F30]  hover:bg-[#F0F7E8] border hover:border-[#017344] duration-200  " +
                             (activeIndex == index
-                                ? "bg-green-600 text-white"
-                                : "bg-white text-slate-600")
+                                ? "bg-[#F0F7E8] border-[#017344]"
+                                : "text-[#969494] border-transparent")
                         }
                         key={index}
                     >

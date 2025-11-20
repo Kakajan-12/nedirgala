@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 export default function Contact() {
     const t = useTranslations("contact");
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start px-[55px] ">
             <div className="grid gap-4">
                 <label className="text-[50px] font-bold">{t("title")}</label>
                 <div className="flex items-center gap-6">

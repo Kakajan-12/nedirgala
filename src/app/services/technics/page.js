@@ -73,7 +73,7 @@ export default function Technics() {
     const [activeTab, setActiveTab] = useState(0);
     const t = useTranslations("technics");
     return (
-        <div className="grid gap-4 my-4">
+        <div className="grid gap-[85px] my-4 px-[55px]">
             <div className="flex justify-center">
                 <Tab
                     onChange={setActiveTab}
