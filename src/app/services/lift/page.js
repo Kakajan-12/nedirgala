@@ -1,16 +1,12 @@
 "use client";
 
-import Tab from "../../components/Tab";
-import ServiceProject from "../../components/ServiceProject";
-import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { ProjectItem } from "@/app/components/ProjectItem";
-import { title } from "process";
 
 export const lifts = [
     {
         id: "1",
-        title: "Abraýly mebel",
+        titleKey: "projects.abraylyMebel.title",
         mainImageUrl: "..//assets/img/lift/abrayly-mebel.JPG",
         imageUrlList: [
             "/assets/img/lift/abrayly-mebel.JPG",
@@ -24,7 +20,7 @@ export const lifts = [
     },
     {
         id: "2",
-        title: "Altyn zaman",
+        titleKey: "projects.altynZaman.title",
         mainImageUrl: "/assets/img/lift/altyn-zaman.jpg",
         imageUrlList: [
             "/assets/img/lift/altyn-zaman.jpg",
@@ -38,7 +34,7 @@ export const lifts = [
     },
     {
         id: "3",
-        title: "Aşgabat Mall",
+        titleKey: "projects.ashgabatMall.title",
         mainImageUrl: "/assets/img/lift/ashgabat-mall.jpg",
         imageUrlList: [
             "/assets/img/lift/ashgabat-mall.jpg",
@@ -49,7 +45,7 @@ export const lifts = [
     },
     {
         id: "4",
-        title: "Kämil Market",
+        titleKey: "projects.kamilMarket.title",
         mainImageUrl: "/assets/img/lift/kamil.JPG",
         imageUrlList: [
             "/assets/img/lift/kamil.JPG",
@@ -64,14 +60,16 @@ export default function Lift() {
 
     return (
         <div className="grid my-4 px-[55px]">
-            <h3 className="text-[70px] my-4 text-[#0C0C0C]">Liftler</h3>
+            <h3 className="text-[70px] my-4 text-[#0C0C0C]">
+                {t("pageTitle")}
+            </h3>
             <div className="grid grid-cols-3 gap-8 justify-center  my-4 mb-8">
                 {lifts.map((project, index) => (
                     <ProjectItem
                         imgSrc={project.mainImageUrl}
                         href={"/services/lift/" + project.id}
                         key={index + 1}
-                        title={project.title}
+                        title={t(project.titleKey)}
                     />
                 ))}
             </div>

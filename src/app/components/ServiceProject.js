@@ -13,9 +13,6 @@ export default function ServiceProject({
     area,
     mainImageUrl,
     imageUrlList,
-    client,
-    building_type,
-    year,
 }) {
     const t = useTranslations("ServiceProject");
     return (
