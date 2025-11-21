@@ -2,7 +2,7 @@
 
 import ServiceProject from "../../../components/ServiceProject";
 import { useTranslations } from "next-intl";
-import { constructionProjects } from "../../../../data/constructions";
+import { constructionProjects } from "../constructions";
 import { notFound, useParams } from "next/navigation";
 
 export default function ConstructionDetail() {
