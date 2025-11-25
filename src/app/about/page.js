@@ -12,7 +12,7 @@ export default function About() {
                         src="/assets/img/berkarar.jpg"
                         alt="nedir gala"
                     />
-                    <div className="absolute bg-black/20 top-0 w-full h-full grid content-end">
+                    <div className="absolute bg-black/40 top-0 w-full h-full grid content-end">
                         <label className="text-[65px] text-white px-[55px] py-[85px]">
                             {translation("about")}
                         </label>

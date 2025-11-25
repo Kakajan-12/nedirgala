@@ -29,13 +29,13 @@ export default function RootLayout({ children }) {
                 <div className="bg-[#F6F5F0]">
                     <NextIntlClientProvider messages={messages}>
                         {/* header */}
-                        <div className="py-[55px] pt-[30px] sticky top-0 z-10">
-                            <div className="max-w-[1330px]  h-[103px] text-[16px] lg:text-[20px] mx-auto  flex items-center justify-between  bg-white  rounded-2xl px-[15px] py-[25px]">
+                        <div className="py-4 md:py-[55px] pt-2 md:pt-[30px] sticky top-0 z-10">
+                            <div className="max-w-[1330px] h-[70px] md:h-[103px] text-[16px] lg:text-[20px] mx-auto  flex items-center justify-between  bg-white  rounded-2xl px-[15px] py-[25px]">
                                 <div className="flex items-center">
                                     {/* LOGO */}
                                     <Link href="/">
                                         <img
-                                            className="max-w-[197px] w-full"
+                                            className=" max-w-[150px] md:max-w-[197px] w-full"
                                             src="/assets/img/logo.png"
                                             alt="logo"
                                         />
@@ -121,16 +121,17 @@ export default function RootLayout({ children }) {
                         </div>
                         {children}
 
-                        <div className="h-[90px] bg-white flex items-center px-8 my-4">
-                            <img
-                                alt=""
-                                src={"/assets/img/footer-logo.png"}
-                            ></img>
-                        </div>
+                        <footer className=" text-[#272727] py-4 bg-white text-[18px]">
+                            <div className=" flex items-center px-4 md:px-8">
+                                <img
+                                    className="md:h-10 h-[30px]"
+                                    alt=""
+                                    src={"/assets/img/footer-logo.png"}
+                                ></img>
+                            </div>
 
-                        <footer className=" text-[#272727] py-4 bg-white p-[88px] text-[18px]">
-                            <div className="grid md:grid-cols-2 lg:grid-cols-4 py-[114px] bg-white mt-8 border-b-gray-200 border-b">
-                                <div className="grid content-start gap-8">
+                            <div className="grid md:grid-cols-2 lg:grid-cols-4 py-10 md:px-8 px-4 bg-white border-b-gray-200 border-b gap-4">
+                                <div className="grid content-start gap-1 md:gap-8">
                                     <label className="text-[25px] font-semibold">
                                         {contactTranslation("location_title")}
                                     </label>
@@ -138,75 +139,79 @@ export default function RootLayout({ children }) {
                                         {contactTranslation("location_address")}
                                     </span>
                                 </div>
-                                <div className="grid">
-                                    <label className="text-[25px] font-semibold mb-8">
+                                <div className="grid md:gap-8 gap-1">
+                                    <label className="text-[25px] font-semibold">
                                         {footerTranslation("navigation")}
                                     </label>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="#"
-                                    >
-                                        {translation("services")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/services/lift"
-                                    >
-                                        {serviceTranlation("lift")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/services/greenhouse"
-                                    >
-                                        {serviceTranlation("greenhouse")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/about"
-                                    >
-                                        {translation("about_us")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/contact"
-                                    >
-                                        {translation("contact")}
-                                    </Link>
+                                    <div className="grid">
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="#"
+                                        >
+                                            {translation("services")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/services/lift"
+                                        >
+                                            {serviceTranlation("lift")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/services/greenhouse"
+                                        >
+                                            {serviceTranlation("greenhouse")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/about"
+                                        >
+                                            {translation("about_us")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/contact"
+                                        >
+                                            {translation("contact")}
+                                        </Link>
+                                    </div>
                                 </div>
-                                <div className="grid">
-                                    <label className="text-[25px] font-semibold mb-8">
+                                <div className="grid gap-1 md:gap-8">
+                                    <label className="text-[25px] font-semibold">
                                         {footerTranslation("navigation")}
                                     </label>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/product_base"
-                                    >
-                                        {translation("production_base")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/products"
-                                    >
-                                        {translation("products")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/services/tomate"
-                                    >
-                                        {serviceTranlation("tomate")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/services/constructions"
-                                    >
-                                        {serviceTranlation("constructions")}
-                                    </Link>
-                                    <Link
-                                        className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
-                                        href="/technics"
-                                    >
-                                        {serviceTranlation("technics")}
-                                    </Link>
+                                    <div className="grid">
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/product_base"
+                                        >
+                                            {translation("production_base")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/products"
+                                        >
+                                            {translation("products")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/services/tomate"
+                                        >
+                                            {serviceTranlation("tomate")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/services/constructions"
+                                        >
+                                            {serviceTranlation("constructions")}
+                                        </Link>
+                                        <Link
+                                            className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                            href="/technics"
+                                        >
+                                            {serviceTranlation("technics")}
+                                        </Link>
+                                    </div>
                                 </div>
                                 <div className="grid content-start gap-1.5">
                                     <label className="text-[25px] font-semibold mb-8">
@@ -242,29 +247,6 @@ export default function RootLayout({ children }) {
                                 </div>
                             </div>
 
-                            {/* partners */}
-                            <div className="mx-auto px-4 text-center pt-4 my-4 ">
-                                <h3 className=" text-2xl lg:text-3xl font-bold mb-8">
-                                    {translation("partners_section_title")}
-                                </h3>
-                                <div className="flex justify-center items-center space-x-12">
-                                    <img
-                                        className="w-[180px] aspect-square border border-gray-200 p-4 rounded-2xl object-contain overflow-hidden "
-                                        src="/assets/img/brands/CNPC-logo.webp"
-                                        alt="logo"
-                                    />
-                                    <img
-                                        className="w-[180px] aspect-square border border-gray-200 p-4 rounded-2xl object-contain overflow-hidden bg-white"
-                                        src="/assets/img/brands/schindler.jpg"
-                                        alt="logo"
-                                    />
-                                    <img
-                                        className="w-[180px] aspect-square border border-gray-200 p-4 rounded-2xl object-contain overflow-hidden bg-white"
-                                        src="/assets/img/brands/TSTB.svg"
-                                        alt="logo"
-                                    />
-                                </div>
-                            </div>
                             <div className="text-center lg:text-[35px] font-semibold">
                                 Nedir Gala{" "}
                                 <span>{new Date().getFullYear()}</span>

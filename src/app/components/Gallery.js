@@ -4,7 +4,7 @@ import FancyboxWrapper from "./FancyboxWrapper";
 
 export default function Gallery({ images = [] }) {
     return (
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-4">
             <FancyboxWrapper>
                 {images.map((item, index) => {
                     return (

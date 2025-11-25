@@ -22,11 +22,11 @@ export default function LanguageSwitcher() {
     };
 
     return (
-        <div className="flex items-center h-[42px] gap-2">
+        <div className="flex items-center h-[25px] md:h-[42px] gap-2">
             <button
                 onClick={() => onFlagClick("tm")}
                 disabled={isPending}
-                className="disabled:opacity-50 h-full w-[63px]"
+                className="disabled:opacity-50 h-full w-[30px] md:w-[63px]"
             >
                 <img
                     className="h-full object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
@@ -37,7 +37,7 @@ export default function LanguageSwitcher() {
             <button
                 onClick={() => onFlagClick("en")}
                 disabled={isPending}
-                className="disabled:opacity-50 h-full w-[63px]"
+                className="disabled:opacity-50 h-full w-[30px] md:w-[63px]"
             >
                 <img
                     className="h-full object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
@@ -48,7 +48,7 @@ export default function LanguageSwitcher() {
             <button
                 onClick={() => onFlagClick("ru")}
                 disabled={isPending}
-                className="disabled:opacity-50 h-full w-[63px]"
+                className="disabled:opacity-50 h-full w-[30px] md:w-[63px]"
             >
                 <img
                     className="h-full object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"

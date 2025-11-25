@@ -6,7 +6,8 @@ import { constructionProjects } from "../constructions";
 import { notFound, useParams } from "next/navigation";
 
 export default function ConstructionDetail() {
-    const t = useTranslations();
+    const t = useTranslations("constructions");
+
     const { id } = useParams();
 
     const project = constructionProjects.find((p) => p.id.toString() === id);
@@ -17,14 +18,12 @@ export default function ConstructionDetail() {
 
     return (
         <ServiceProject
-            title={t(project.titleKey)}
-            client={t(project.clientKey)}
+            title={project.title}
+            client={project.client}
             mainImageUrl={project.mainImageUrl}
-            location={t(project.locationKey)}
-            text={t(project.textKey)}
+            location={project.location}
+            text={project.text}
             imageUrlList={project.imageUrlList}
-            year={project.year}
-            building_type={t(project.buildingTypeKey)}
         ></ServiceProject>
     );
 }

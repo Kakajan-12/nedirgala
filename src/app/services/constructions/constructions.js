@@ -1,19 +1,11 @@
 export const constructionProjects = [
     {
         id: 1,
-        title: "GIAD-2, GIAD-3, ýyladyjy kotelni we 4 sany podstansiýa",
-        client: "Çuansiniň buraw inženerçilik kompaniýasy",
+        titleKey: "projects.giad.title",
+        clientKey: "giad.client",
         mainImageUrl: "/assets/img/construction/giad.png",
-        location: "Turkmenistan, Mary welaýaty Günorta Ýolöten",
-        text: "  “Nedir Gala” Hususy kärhanasy köp ýyllaryň dowamynda telekeçilik işleriniň görnüşleri bilen meşgullanyp, bu ugurda \
-            netijeli görkezijileri gazanyp gelýär. Kärhana özüne berilen degişli ygtyýarnamalary laýyklykda, birnäçe desgalaryň\
-            gurluşyk işlerini ýerine ýetirdi. Olardan 2011-2012-nji ýyllarda “Türkmenistanda ýerleşen HHR-nyň CNPC kompaniýasynyň\
-            ýanyndaky jogapkärçiligi çäklendirilen Çuansin buraw inžener kompaniýasynyň” buýurmagynda Mary welaýatynyň Ýolöten\
-            etrabynda “UPPK-2”,”UPPK-3” we “4 sany potstansiýa binasy” hem-de “Bug gazan binasynyň binýady” uly göwrümli binalarynyň\
-            gurluşyk-gurnama işlerini ýerine ýetirdi. Mundan başga-da 2018-nji ýylda baglaşylan şertnama laýyklykda, “Türkmenistanyň\
-            “Bagtyýarlyk” ylalaşylan meýdançasynda Demirýolunyň aşagyndan turba geçirmek boýunça gurluşyk işleri” desgasynda turba\
-            geçirmek işlerini ýerine ýetirdi.",
-
+        locationKey: "projects.giad.location",
+        textKey: "projects.giad.text",
         imageUrlList: [
             "/assets/img/construction/giad.jpg",
             "/assets/img/construction/giad1.jpg",
@@ -30,14 +22,11 @@ export const constructionProjects = [
     },
     {
         id: 2,
-        title: " «Aşgabat – Türkmenbaşy» awtomobil köprüsi",
-        client: "“Türkmenawtoýollary” döwlet konserni",
+        titleKey: "projects.ashgabatTurkmenbashiBridge.title",
+        clientKey: "projects.ashgabatTurkmenbashiBridge.client",
         mainImageUrl: "/assets/img/construction/bridge.jpg",
-        location: "Aşgabat-Türkmenbaşy we Mary-Türkmenabat awtomobil ýoly",
-        text: " 2014-2015-nji ýyllarda “Türkmenawtoýollary” döwlet konserniniň buýurmagynda\
-                                Aşgabat-Türkmenbaşy we Mary-Türkmenabat \
-                                awtomobil ýolunyň ugrunda, birnäçe köprüleriň gurluşyk işlerini amala aşyrdy.",
-
+        locationKey: "projects.ashgabatTurkmenbashiBridge.location",
+        textKey: "projects.ashgabatTurkmenbashiBridge.text",
         imageUrlList: [
             "/assets/img/construction/bridge.jpg",
             "/assets/img/construction/bridge1.jpg",
@@ -51,15 +40,11 @@ export const constructionProjects = [
     },
     {
         id: 3,
-        title: '"Bereketli zaman" ýaşaýyş jaýy',
-        client: "Ahal welaýat häkimligi",
+        titleKey: "projects.bereketliZaman.title",
+        clientKey: "projects.bereketliZaman.client",
         mainImageUrl: "/assets/img/construction/Bereketli zaman1.jpg",
-        location:
-            "Turkmenistan, Ahal welaýatynyň Ak bugdaý etraby Gäwers geňeşligi Bereketli zaman şäherçesi",
-        text: " 2014-2016-njy ýyllarda “Ahal welaýat häkimliginiň buýurmagynda Ahal welaýatynyň Ak \
-                                bugdaý etrabynyň Gäwers geňeşliginiň \
-                                çägindäki Bereketli zaman şäherçesinde 40 sany ipoteka ýaşaýyş jaýlarynyň gurluşygyny \
-                                ýerine ýetirdi.",
+        locationKey: "projects.bereketliZaman.location",
+        textKey: "projects.bereketliZaman.text",
         imageUrlList: [
             "/assets/img/construction/Bereketli zaman2.jpg",
             "/assets/img/construction/Bereketli zaman3.webp",
@@ -74,11 +59,11 @@ export const constructionProjects = [
     },
     {
         id: 4,
-        title: "Kotež",
-        client: "“Nedir gala”",
+        titleKey: "projects.anewResidential.title",
+        clientKey: "projects.anewResidential.client",
         mainImageUrl: "/assets/img/construction/1A.jpg",
-        location: "Turkmenistan, Ahal welaýatynyň Änew şäheri",
-        text: "“Nedir gala” Hususy kärhanasy tarapyndan 2019-2022-nji ýyllarda Ahal welaýatynyň Änew şäherinde kotež görnüli ýaşaýyş jaýlarynyň gurluşygy alnyp baryldy.",
+        locationKey: "projects.anewResidential.location",
+        textKey: "projects.anewResidential.text",
         imageUrlList: [
             "/assets/img/construction/1A.jpg",
             "/assets/img/construction/2A.jpg",

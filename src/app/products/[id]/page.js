@@ -18,69 +18,69 @@ export default function ProductDetail({}) {
     }
 
     return (
-        <div className="mx-auto bg-white  rounded-2xl p-8 font-sans max-w-[1330px]">
+        <div className="mx-auto bg-white  rounded-2xl md:p-8 p-4 font-sans max-w-[1330px]">
             <div className="grid grid-cols-[max-content_auto] gap-6 mb-10">
                 <div className="">
                     <img
                         src={product.imgUrl}
                         alt={t(product.nameKey)}
-                        className="object-contain h-[390px]"
+                        className="object-contain h-[180px] md:h-[390px]"
                     />
                 </div>
 
                 <div className="grid items-center">
-                    <h1 className="text-[70px] font-bold text-center mb-8">
+                    <h1 className="text-[20px] md:text-[70px] font-bold text-center mb-8">
                         {t(product.nameKey)}
                     </h1>
-                    <div className="grid grid-cols-1 md:grid-cols-3 text-[23px] gap-[45px] text-center items-center w-max mx-auto">
-                        <div className="grid justify-items-center h-max gap-4">
-                            <div className="flex items-center justify-center  w-[128px] aspect-square bg-[#F0F7E8] rounded-full">
+                    <div className="grid grid-cols-1 md:grid-cols-3 text-[23px] md:gap-[45px] gap-[20px] text-center items-center w-max mx-auto">
+                        <div className="grid justify-items-center h-max md:gap-4 gap-1">
+                            <div className="flex items-center justify-center w-[60px] aspect-square bg-[#F0F7E8] rounded-full">
                                 <img
-                                    className="w-[66px] aspect-square object-contain"
+                                    className="md:w-[66px] w-[30px] aspect-square object-contain"
                                     alt=""
                                     src={"/assets/img/weight.png"}
                                 ></img>
                             </div>
-                            <p>
+                            <p className="text-[14px]">
                                 {t("net_weight")}: {product.weight}
                             </p>
                         </div>
-                        <div className="grid justify-items-center h-max  gap-4">
-                            <div className="flex items-center justify-center  w-[128px] aspect-square bg-[#F0F7E8] rounded-full">
+                        <div className="grid justify-items-center h-max md:gap-4 gap-1">
+                            <div className="flex items-center justify-center w-[60px] aspect-square bg-[#F0F7E8] rounded-full">
                                 <img
-                                    className="w-[66px] aspect-square object-contain"
+                                    className="md:w-[66px] w-[30px] aspect-square object-contain"
                                     alt=""
                                     src={"/assets/img/bottle.png"}
                                 ></img>
                             </div>
-                            <p>
+                            <p className="text-[14px]">
                                 {t("packaging")}: {t(product.containerKey)}
                             </p>
                         </div>
-                        <div className="grid justify-items-center h-max gap-4">
-                            <div className="flex items-center justify-center  w-[128px] aspect-square bg-[#F0F7E8] rounded-full">
+                        <div className="grid justify-items-center h-max md:gap-4 gap-1">
+                            <div className="flex items-center justify-center w-[60px] aspect-square bg-[#F0F7E8] rounded-full">
                                 <img
-                                    className="w-[66px] aspect-square object-contain"
+                                    className="md:w-[66px] w-[30px] aspect-square object-contain"
                                     alt=""
                                     src={"/assets/img/calendar.png"}
                                 ></img>
                             </div>
-                            <p>{t("shelf_life")}</p>
+                            <p className="text-[14px]">{t("shelf_life")}</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-[25px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-[18px] md:text-[25px]">
                 <div>
-                    <h2 className="text-[40px] font-semibold mb-4">
+                    <h2 className="text-[25px] md:text-[40px] font-semibold mb-4">
                         {t("composition")}:
                     </h2>
                     <p>{t(product.textKey)}</p>
                 </div>
 
                 <div>
-                    <h2 className="text-[35px] font-semibold mb-4">
+                    <h2 className="text-[25px] md:text-[35px] font-semibold mb-4">
                         {t("nutritional_value")}
                     </h2>
                     <p>{t("carbohydrates")}</p>
@@ -88,7 +88,7 @@ export default function ProductDetail({}) {
 
                     <div className="bg-[#F0F7E8] p-4 rounded-xl grid grid-cols-[max-content_auto_max-content] mt-6 gap-[30px]">
                         <img
-                            className="object-contain w-[46px] h-max"
+                            className="object-contain md:w-[46px] w-[30px] h-max"
                             alt=""
                             src={"/assets/img/double-comma.png"}
                         ></img>
@@ -100,7 +100,7 @@ export default function ProductDetail({}) {
                         </p>
                         <div className="flex items-end">
                             <img
-                                className="object-contain w-[46px] h-max rotate-180"
+                                className="object-contain md:w-[46px] w-[30px] h-max rotate-180"
                                 alt=""
                                 src={"/assets/img/double-comma.png"}
                             ></img>
@@ -109,8 +109,8 @@ export default function ProductDetail({}) {
                 </div>
             </div>
 
-            <div className="mt-10 text-[25px]">
-                <h2 className="text-[40px] font-semibold mb-4">
+            <div className="mt-10 text-[18px] md:text-[25px]">
+                <h2 className="md:text-[40px] text-[25px] font-semibold mb-4">
                     {t("order_guarantee")}
                 </h2>
                 <p>

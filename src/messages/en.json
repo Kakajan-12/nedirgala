@@ -115,17 +115,17 @@
     "constructions": {
         "pageTitle": "Our Projects",
         "projects": {
-            "1": {
-                "title": "GIAD-2, GIAD-3, heating boiler and 4 substations"
+            "giad": {
+                "title": "UPPK-2, UPPK-3, heating boiler and 4 substation buildings"
             },
-            "2": {
-                "title": "Ashgabat – Turkmenbashi highway bridge"
+            "ashgabatTurkmenbashiBridge": {
+                "title": "Automobile bridge \"Ashgabat - Turkmenbashi\""
             },
-            "3": {
-                "title": "Bereketli Zaman residential building"
+            "bereketliZaman": {
+                "title": "\"Bereketli Zaman\" residential buildings"
             },
-            "4": {
-                "title": "Residential building in Anau"
+            "anewResidential": {
+                "title": "\"Anev\" residential buildings"
             }
         }
     },

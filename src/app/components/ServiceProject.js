@@ -17,38 +17,38 @@ export default function ServiceProject({
     const t = useTranslations("ServiceProject");
     return (
         <div className="grid gap-4">
-            <div className="relative  h-30vh sm:h-[80vh] overflow-hidden">
+            <div className="relative h-[30vh] md:h-[40vh] sm:h-[80vh] overflow-hidden">
                 <img
                     className="w-full h-full object-cover"
                     src={mainImageUrl}
                     alt=""
                 />
-                <div className="absolute top-0 text-white grid content-end sm:p-[55px] p-[20px] text-[30px] sm:text-[65px] w-full h-full bg-black/13">
+                <div className="absolute top-0 text-white grid content-end sm:p-[55px] p-5 text-[25px] md:text-[50px] w-full h-full bg-black/13">
                     <label>{title}</label>
                 </div>
             </div>
 
-            <div className="grid px-[25px] sm:px-[55px]  gap-[55px]">
+            <div className="grid px-[25px] sm:px-[55px] gap-4 md:gap-[55px]">
                 {location != undefined && (
                     <div className="grid grid-cols-1  md:flex md:flex-wrap justify-between gap-5 my-4">
                         <div
                             className={
-                                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040] min-w-[350px]  w-full grid grid-cols-[max-content_auto] " +
+                                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040] min-w-[300px] md:min-w-[350px] items-center gap-2 w-full grid grid-cols-[max-content_auto] " +
                                 (products == undefined
                                     ? " md:max-w-[45%]"
                                     : " md:max-w-[30%]")
                             }
                         >
                             <img
-                                className="w-[109px] aspect-square"
+                                className=" w-[50px] md:w-[109px] aspect-square"
                                 alt=""
                                 src={"/assets/img/location.png"}
                             ></img>
                             <div className="grid content-between">
-                                <label className="font-bold text-[35px]">
+                                <label className="font-bold md:text-[35px] text-[18px]">
                                     {t("location")}
                                 </label>
-                                <label className="text-[20px] font-medium">
+                                <label className="md:text-[20px] text-[14px] font-medium">
                                     {location}
                                 </label>
                             </div>
@@ -56,22 +56,22 @@ export default function ServiceProject({
                         {products && (
                             <div
                                 className={
-                                    "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040] min-w-[350px]  w-full grid grid-cols-[max-content_auto] " +
+                                    "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040] min-w-[300px] md:min-w-[350px] items-center gap-2 w-full grid grid-cols-[max-content_auto] " +
                                     (products == undefined
                                         ? " md:max-w-[45%]"
                                         : " md:max-w-[30%]")
                                 }
                             >
                                 <img
-                                    className="w-[109px] aspect-square"
+                                    className=" w-[50px] md:w-[109px] aspect-square"
                                     alt=""
                                     src={"/assets/img/cherry.png"}
                                 ></img>
                                 <div className="grid content-between">
-                                    <label className="font-bold text-[35px]">
+                                    <label className="font-bold md:text-[35px] text-[18px]">
                                         {t("products")}
                                     </label>
-                                    <label className="text-[20px] font-medium">
+                                    <label className="md:text-[20px] text-[14px] font-medium">
                                         {products}
                                     </label>
                                 </div>
@@ -79,22 +79,22 @@ export default function ServiceProject({
                         )}
                         <div
                             className={
-                                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040] min-w-[350px]  w-full grid grid-cols-[max-content_auto] " +
+                                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040] min-w-[300px] md:min-w-[350px] items-center gap-2 w-full grid grid-cols-[max-content_auto] " +
                                 (products == undefined
                                     ? " md:max-w-[45%]"
                                     : " md:max-w-[30%]")
                             }
                         >
                             <img
-                                className="w-[109px] aspect-square"
+                                className=" w-[50px] md:w-[109px] aspect-square"
                                 alt=""
                                 src={"/assets/img/area.png"}
                             ></img>
                             <div className="grid content-between">
-                                <label className="font-bold text-[35px]">
+                                <label className="font-bold md:text-[35px] text-[18px]">
                                     {t("area")}
                                 </label>
-                                <label className="text-[20px] font-medium">
+                                <label className="md:text-[20px] text-[14px] font-medium">
                                     {area}
                                 </label>
                             </div>
@@ -102,7 +102,7 @@ export default function ServiceProject({
                     </div>
                 )}
                 {text && (
-                    <div className="bg-white p-[60px] rounded-[15px] text-[22px]">
+                    <div className="bg-white md:p-[60px] p-5 rounded-[15px] md:text-[22px] text-[18px]">
                         <p>{text}</p>
                     </div>
                 )}
