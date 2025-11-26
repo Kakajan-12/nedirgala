@@ -115,17 +115,25 @@
     "constructions": {
         "pageTitle": "Taslamalar",
         "projects": {
-            "giad": {
-                "title": "GIAD-2, GIAD-3, ýyladyjy kotelni we 4 sany podstansiýa"
+            "1": {
+                "title": "GIAD-2, GIAD-3, ýyladyjy kotelni we 4 sany podstansiýa",
+                "location": "Turkmenistan, Mary welaýaty Günorta Ýolöten",
+                "text": ""
             },
-            "ashgabatTurkmenbashiBridge": {
-                "title": "«Aşgabat – Türkmenbaşy» awtomobil köprüsi"
+            "2": {
+                "title": "«Aşgabat – Türkmenbaşy» awtomobil köprüsi",
+                "location": "Aşgabat-Türkmenbaşy we Mary-Türkmenabat awtomobil ýoly",
+                "text": ""
             },
-            "bereketliZaman": {
-                "title": "Bereketli zaman ýaşaýyş jaýy"
+            "3": {
+                "title": "Bereketli zaman ýaşaýyş jaýy",
+                "location": "Turkmenistan, Ahal welaýatynyň Ak bugdaý etraby Gäwers geňeşligi Bereketli zaman şäherçesi",
+                "text": ""
             },
-            "anewResidential": {
-                "title": "Änew ýaşaýyş jaýy"
+            "4": {
+                "title": "Änew ýaşaýyş jaýy",
+                "location": "Turkmenistan, Ahal welaýatynyň Änew şäheri",
+                "text": ""
             }
         }
     },

@@ -15,6 +15,8 @@ export default function ServiceProject({
     imageUrlList,
 }) {
     const t = useTranslations("ServiceProject");
+    console.log(location);
+
     return (
         <div className="grid gap-4">
             <div className="relative h-[30vh] md:h-[40vh] sm:h-[80vh] overflow-hidden">
@@ -23,7 +25,7 @@ export default function ServiceProject({
                     src={mainImageUrl}
                     alt=""
                 />
-                <div className="absolute top-0 text-white grid content-end sm:p-[55px] p-5 text-[25px] md:text-[50px] w-full h-full bg-black/13">
+                <div className="absolute top-0 text-white grid content-end md:p-[55px] p-5 text-[25px] md:text-[50px] w-full h-full bg-black/13">
                     <label>{title}</label>
                 </div>
             </div>

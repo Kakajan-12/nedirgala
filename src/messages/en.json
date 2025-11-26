@@ -115,17 +115,25 @@
     "constructions": {
         "pageTitle": "Our Projects",
         "projects": {
-            "giad": {
-                "title": "UPPK-2, UPPK-3, heating boiler and 4 substation buildings"
+            "1": {
+                "title": "UPPK-2, UPPK-3, heating boiler and 4 substation buildings",
+                "location": "South Yoloten, Mary Province, Turkmenistan",
+                "text": "Construction and installation of large-scale buildings for UPPK-2, UPPK-3, 4 substation buildings, and the foundation of a steam boiler building, commissioned by 'Chuangxing Drilling Engineering Company' in Turkmenistan."
             },
-            "ashgabatTurkmenbashiBridge": {
-                "title": "Automobile bridge \"Ashgabat - Turkmenbashi\""
+            "2": {
+                "title": "Automobile bridge \"Ashgabat - Turkmenbashi\"",
+                "location": "Ashgabat-Turkmenbashi and Mary-Turkmenabat highways",
+                "text": "Construction of several bridges on the Turkmenabat highway, commissioned by the state concern 'Turkmenavtoyollary' in 2015."
             },
-            "bereketliZaman": {
-                "title": "\"Bereketli Zaman\" residential buildings"
+            "3": {
+                "title": "\"Bereketli Zaman\" residential buildings",
+                "location": "Turkmenistan, the gengeshi of the Gyavers etrapa of the Ak Bugdai Akhal province.",
+                "text": "From 2014-2016, commissioned by the Akhal velayat khyakimlik, construction began on 40 mortgage houses in the village of Bereketli Zaman."
             },
-            "anewResidential": {
-                "title": "\"Anev\" residential buildings"
+            "4": {
+                "title": "\"Anev\" residential buildings",
+                "location": "Anev, Ahal Velayat, Turkmenistan",
+                "text": "The company constructed cottage-type residential buildings in the city of Anew, Akhal velayat, from 2019-2022."
             }
         }
     },

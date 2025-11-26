@@ -2,7 +2,7 @@ export const constructionProjects = [
     {
         id: 1,
         titleKey: "projects.giad.title",
-        clientKey: "giad.client",
+        clientKey: "projects.giad.client",
         mainImageUrl: "/assets/img/construction/giad.png",
         locationKey: "projects.giad.location",
         textKey: "projects.giad.text",

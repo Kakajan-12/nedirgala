@@ -18,7 +18,7 @@ export default function ConstructionProjects() {
                         imgSrc={project.mainImageUrl}
                         href={"/services/constructions/" + project.id}
                         key={index + 1}
-                        title={t(project.titleKey)}
+                        title={t(`projects.${project.id}.title`)}
                     />
                 ))}
             </div>

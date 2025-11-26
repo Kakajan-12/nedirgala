@@ -7,9 +7,7 @@ import { notFound, useParams } from "next/navigation";
 
 export default function ConstructionDetail() {
     const t = useTranslations("constructions");
-
     const { id } = useParams();
-
     const project = constructionProjects.find((p) => p.id.toString() === id);
 
     if (!project) {
@@ -21,8 +19,8 @@ export default function ConstructionDetail() {
             title={project.title}
             client={project.client}
             mainImageUrl={project.mainImageUrl}
-            location={project.location}
-            text={project.text}
+            location={t(`projects.${project.id}.location`)}
+            text={t(`projects.${project.id}.text`)}
             imageUrlList={project.imageUrlList}
         ></ServiceProject>
     );

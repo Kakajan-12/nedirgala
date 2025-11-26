@@ -8,10 +8,12 @@ import { useTranslations } from "next-intl";
 export default function Contact() {
     const t = useTranslations("contact");
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start px-[55px] ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start px-5 md:px-[55px] ">
             <div className="grid gap-4">
-                <label className="text-[50px] font-bold">{t("title")}</label>
-                <div className="flex items-center gap-6">
+                <label className="md:text-[50px] text-[30px] font-bold">
+                    {t("title")}
+                </label>
+                <div className="grid grid-cols-[60px_auto]">
                     <MapPin color="green" size={40} />
 
                     <div>
@@ -22,7 +24,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="flex gap-6">
+                <div className="grid grid-cols-[60px_auto]">
                     <Phone color="green" size={40} />
                     <div className="contact__info-text">
                         <label className="font-bold">{t("phone_title")}</label>
@@ -31,7 +33,7 @@ export default function Contact() {
                         <p>+993(12)468162</p>
                     </div>
                 </div>
-                <div className="flex items-center gap-6">
+                <div className="grid grid-cols-[60px_auto]">
                     <Mail color="green" size={40} />
                     <div className="contact__info-text">
                         <h4 className="font-bold">{t("email_title")}</h4>
@@ -39,7 +41,7 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-            <div id="yandex-map" className="h-[532px] w-full">
+            <div id="yandex-map" className="md:h-[532px] aspect-square w-full">
                 <iframe
                     className="w-full h-full rounded-2xl overflow-hidden"
                     src="https://yandex.ru/map-widget/v1/?lang=ru_RU&scroll=true&source=constructor-api&um=constructor%3Aa03926bc18c46afca9eb0fdd86e2a8c9e885cd820760e9dfefc31589211230c7"
