@@ -3,6 +3,10 @@
 
 @import "tailwindcss";
 
+img{
+  max-width: initial;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

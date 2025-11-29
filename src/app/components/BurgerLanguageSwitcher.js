@@ -4,9 +4,9 @@
 import { useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { setLanguageCookie } from "@/app/actions";
-import { useLanguageStore } from "../../languageStore";
+import { useLanguageStore } from "../../../languageStore";
 
-export default function LanguageSwitcher() {
+export default function BurgerLanguageSwitcher() {
     const router = useRouter();
     const [isPending, startTransition] = useTransition();
     const { setLanguage } = useLanguageStore();
@@ -22,14 +22,14 @@ export default function LanguageSwitcher() {
     };
 
     return (
-        <div className="flex items-center h-[25px] md:h-[42px] gap-2">
+        <div className="flex items-center h-[42px] gap-2">
             <button
                 onClick={() => onFlagClick("tm")}
                 disabled={isPending}
-                className="disabled:opacity-50 h-full w-[30px] md:w-[63px]"
+                className="disabled:opacity-50 h-full w-max"
             >
                 <img
-                    className="h-full object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
+                    className="h-full aspect-6/4 object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
                     src="/assets/img/lang/turkmen.png"
                     alt="Turkmen"
                 />
@@ -37,10 +37,10 @@ export default function LanguageSwitcher() {
             <button
                 onClick={() => onFlagClick("en")}
                 disabled={isPending}
-                className="disabled:opacity-50 h-full w-[30px] md:w-[63px]"
+                className="disabled:opacity-50 h-full w-max"
             >
                 <img
-                    className="h-full object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
+                    className="h-full aspect-6/4 object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
                     src="/assets/img/lang/english.webp"
                     alt="English"
                 />
@@ -48,10 +48,10 @@ export default function LanguageSwitcher() {
             <button
                 onClick={() => onFlagClick("ru")}
                 disabled={isPending}
-                className="disabled:opacity-50 h-full w-[30px] md:w-[63px]"
+                className="disabled:opacity-50 h-full w-max"
             >
                 <img
-                    className="h-full object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
+                    className="h-full aspect-6/4 object-cover overflow-hidden rounded-md border border-gray-200 hover:shadow-lg duration-200"
                     src="/assets/img/lang/russian.webp"
                     alt="Russian"
                 />

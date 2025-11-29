@@ -81,14 +81,14 @@ export default function Products() {
             </div>
             <section className="md:px-[55px] px-5">
                 <div className="my-8 grid gap-2">
-                    <label className="md:text-[65px] text-[35px] font-bold">
+                    <label className="md:text-[65px] text-[30px] font-bold">
                         {t("page_title")}
                     </label>
-                    <label className="text-[20px] md:text-[35px]">
+                    <label className="text-[16px] md:text-[35px]">
                         {t("page_subtitle")}
                     </label>
                 </div>
-                <div className="products grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-10 gap-4 my-6">
+                <div className="products grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-10 gap-4 my-6">
                     {products.map((product) => (
                         <ProductItem
                             key={product.id}
@@ -103,20 +103,6 @@ export default function Products() {
                     ))}
                 </div>
             </section>
-            {/* <a
-                download={"DayhanCatatlog.pdf"}
-                target="_blank"
-                href="/assets/pdf/Dayhan_Catalog.pdf"
-            >
-                <div className="hover:bg-slate-200 duration-200 rounded-2xl p-4 w-max flex items-center">
-                    <img
-                        src="/assets/img/pdf.png"
-                        alt="Download catalog"
-                        className="max-w-[50px]"
-                    />
-                    <p className="text-[20px]">{t("download_catalog")}</p>
-                </div>
-            </a> */}
         </div>
     );
 }

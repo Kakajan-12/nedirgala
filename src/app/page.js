@@ -9,7 +9,7 @@ export default function Home() {
     const ts = useTranslations("services");
 
     return (
-        <div>
+        <div className="mt-[-188px]">
             <div
                 className="relative flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden h-[50vh] md:h-screen"
                 style={{ backgroundImage: "url('/assets/img/berkarar.jpg')" }}
@@ -25,25 +25,23 @@ export default function Home() {
             </div>
 
             <section className="md:py-16 py-4 px-4 md:px-[55px]">
-                <div className="grid md:grid-cols-2 gap-2.5">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-2.5 ">
                     <div className="bg-white rounded-[15px] p-4 grid gap-[25px]">
-                        <p className="text-gray-600 leading-relaxed text-[16px] line-clamp-17 mt-[20px] md:mt-[52px]">
+                        <p className="text-gray-600 leading-relaxed text-[16px] line-clamp-17 mt-5 md:mt-[52px]">
                             {translation("about_section_description")}
                         </p>
                         <Link
                             href="/about"
-                            className="md:mt-4 w-max h-max inline-block text-[#969494] border border-[#969595]  md:text-[25px] rounded-lg p-2.5"
+                            className="md:mt-4 w-max h-max inline-block hover:opacity-80 duration-200 bg-green-700 text-white border-[#969595]  md:text-[25px] rounded-lg p-2.5"
                         >
                             {translation("about_section_more")}
                         </Link>
                     </div>
-                    <div>
-                        <img
-                            src="/assets/img/berkarar.jpg"
-                            alt="nedir gala"
-                            className="h-full object-cover"
-                        />
-                    </div>
+                    <img
+                        src="/assets/img/berkarar.jpg"
+                        alt="nedir gala"
+                        className="w-full h-full object-cover hidden lg:block"
+                    />
                 </div>
             </section>
 
@@ -52,7 +50,7 @@ export default function Home() {
                     <h3 className="text-3xl font-bold mb-8 text-[30px] md:text-[50px]">
                         {translation("services_section_title")}
                     </h3>
-                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 px-5 md:px-[55px]">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-5 md:px-[55px]">
                         <ServiceItem
                             href="/services/lift"
                             imgUrl={"/assets/img/lift/lift1.png"}
@@ -123,7 +121,7 @@ function ServiceItem({ name, imgUrl, href }) {
                     alt={name}
                     className="w-full h-full object-cover group-hover:scale-110 duration-300"
                 />
-                <label className="text-slate-600 font-semibold align-middle items-center text-[18px] md:text-[35px] h-max m-auto">
+                <label className="text-slate-600 font-semibold align-middle items-center text-[40px] md:text-[35px] h-max m-auto">
                     {name}
                 </label>
             </div>

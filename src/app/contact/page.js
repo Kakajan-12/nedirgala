@@ -42,9 +42,14 @@ export default function Contact() {
                 </div>
             </div>
             <div id="yandex-map" className="md:h-[532px] aspect-square w-full">
-                <iframe
+                {/* <iframe
                     className="w-full h-full rounded-2xl overflow-hidden"
                     src="https://yandex.ru/map-widget/v1/?lang=ru_RU&scroll=true&source=constructor-api&um=constructor%3Aa03926bc18c46afca9eb0fdd86e2a8c9e885cd820760e9dfefc31589211230c7"
+                ></iframe> */}
+
+                <iframe
+                    className="w-full h-full rounded-2xl overflow-hidden"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d799.5681624021424!2d58.3686491337929!3d37.89257075816658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sth!4v1764448116822!5m2!1sru!2sth"
                 ></iframe>
             </div>
         </div>
