@@ -7,7 +7,7 @@ export const lifts = [
     {
         id: "1",
         titleKey: "projects.abraylyMebel.title",
-        mainImageUrl: "..//assets/img/lift/abrayly-mebel.JPG",
+        mainImageUrl: "/assets/img/lift/abrayly-mebel.JPG",
         imageUrlList: [
             "/assets/img/lift/abrayly-mebel.JPG",
             "/assets/img/lift/abrayly-mebel1.JPG",
@@ -25,11 +25,11 @@ export const lifts = [
         imageUrlList: [
             "/assets/img/lift/altyn-zaman.jpg",
             "/assets/img/lift/altyn-zaman1.jpg",
-            "/assets/img/lift/altyn-zaman2.jpg",
-            "/assets/img/lift/altyn-zaman3.jpg",
-            "/assets/img/lift/altyn-zaman4.jpg",
-            "/assets/img/lift/altyn-zaman5.jpg",
-            "/assets/img/lift/altyn-zaman6.jpg",
+            "/assets/img/lift/altyn-zaman2.JPG",
+            "/assets/img/lift/altyn-zaman3.JPG",
+            "/assets/img/lift/altyn-zaman4.JPG",
+            "/assets/img/lift/altyn-zaman5.JPG",
+            "/assets/img/lift/altyn-zaman6.JPG",
         ],
     },
     {
@@ -39,7 +39,7 @@ export const lifts = [
         imageUrlList: [
             "/assets/img/lift/ashgabat-mall.jpg",
             "/assets/img/lift/ashgabat-mall1.jpg",
-            "/assets/img/lift/ashgabat-mall2.jpg",
+            "/assets/img/lift/ashgabat-mall2.JPG",
             "/assets/img/lift/ashgabat-mall3.jpg",
         ],
     },
@@ -49,8 +49,8 @@ export const lifts = [
         mainImageUrl: "/assets/img/lift/kamil.JPG",
         imageUrlList: [
             "/assets/img/lift/kamil.JPG",
-            "/assets/img/lift/kamil1.jpg",
-            "/assets/img/lift/kamil2.jpg",
+            "/assets/img/lift/kamil1.JPG",
+            "/assets/img/lift/kamil2.JPG",
         ],
     },
 ];

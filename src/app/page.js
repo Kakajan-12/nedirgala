@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <div className="mt-[-188px]">
             <div
-                className="relative flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden h-[50vh] md:h-screen"
+                className="relative flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden h-[80vh] md:h-screen"
                 style={{ backgroundImage: "url('/assets/img/berkarar.jpg')" }}
             >
                 <div className="bg-black/41 text-white bg-opacity-50 w-full h-full rounded-lg flex flex-col items-center justify-center">
