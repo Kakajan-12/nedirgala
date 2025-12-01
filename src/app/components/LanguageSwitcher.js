@@ -22,7 +22,7 @@ export default function LanguageSwitcher() {
     };
 
     return (
-        <div className="flex items-center h-[18px] md:h-[30px]   xl:h-[42px] gap-2">
+        <div className="flex items-center h-[18px] md:h-[30px] xl:h-[42px] gap-1 lg:gap-2  ">
             <button
                 onClick={() => onFlagClick("tm")}
                 disabled={isPending}
