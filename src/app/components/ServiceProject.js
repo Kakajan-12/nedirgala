@@ -19,7 +19,7 @@ export default function ServiceProject({
 
     return (
         <div className="grid gap-4">
-            <div className="relative h-[30vh] md:h-[50vh] sm:h-[80vh] overflow-hidden">
+            <div className="relative h-[80vh] mt-[-188px] md:h-screen  overflow-hidden">
                 <div className="relative h-full">
                     <div className="bg-black/30 absolute w-full h-full"></div>
                     <img

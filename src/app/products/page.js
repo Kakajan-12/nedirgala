@@ -8,7 +8,7 @@ import { products } from "./products";
 function ProductItem({ id, nameKey, imgUrl, weight, containerKey }) {
     const t = useTranslations("products");
     return (
-        <div className="grid bg-white gap-2 rounded-2xl overflow-hidden duration-200">
+        <div className="grid grid-rows-[max-content_auto_max-content] h-max bg-white gap-2 rounded-2xl overflow-hidden duration-200">
             <div className="relative overflow-hidden">
                 <img
                     className="w-full aspect-53/34"
@@ -21,7 +21,7 @@ function ProductItem({ id, nameKey, imgUrl, weight, containerKey }) {
                     src={imgUrl}
                 ></img>
             </div>
-            <div className="md:p-8 p-2 grid md:gap-5 gap-3">
+            <div className="md:p-6  grid md:gap-5 gap-3">
                 <span className="font-bold text-[18px] md:text-[30px] text-[#C32D2F] text-center">
                     {t(nameKey)}
                 </span>
@@ -52,8 +52,8 @@ function ProductItem({ id, nameKey, imgUrl, weight, containerKey }) {
                         alt=""
                         src={"/assets/img/calendar.png"}
                     ></img>
-                    <div className="flex items-center gap-1 md:text-[16px] text-[14px]">
-                        <label>{t("shelf_life")}</label>{" "}
+                    <div className="flex items-center flex-wrap gap-1 md:text-[16px] text-[14px]">
+                        <span>{t("shelf_life")}</span>{" "}
                         <span>{t("shelf_life_value")}</span>
                     </div>
                 </div>

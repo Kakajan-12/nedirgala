@@ -48,7 +48,7 @@ export default function Contact() {
                 ></iframe> */}
 
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.305259839124!2d58.36917412166613!3d37.89339143783868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f700281a6707c9d%3A0x98296aa2668c013c!2z0KLQvtGA0LPQvtCy0L4t0YDQsNC30LLQu9C10LrQsNGC0LXQu9GM0L3Ri9C5INGG0LXQvdGC0YAgItCR0LXRgNC60LDRgNCw0YAi!5e1!3m2!1sru!2sth!4v1764615187251!5m2!1sru!2sth"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2305.4752458320268!2d58.36958568183373!3d37.89290793497041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f7002819e264021%3A0x8777596f98dc765f!2zQXRhdMO8cmsga8O2w6dlc2ksIEHFn2dhYmF0LCDQotGD0YDQutC80LXQvdC40YHRgtCw0L0!5e1!3m2!1sru!2sth!4v1764878225710!5m2!1sru!2sth"
                     className="w-full h-full rounded-2xl overflow-hidden"
                 ></iframe>
             </div>

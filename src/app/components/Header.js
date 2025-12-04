@@ -24,7 +24,7 @@ export default function Header() {
                 }}
             ></BurgerMenu>
             <div
-                className="max-w-[1330px] h-[70px] md:h-[103px] text-[16px] lg:text-[20px] mx-auto 
+                className="max-w-[1330px] h-[70px] md:h-[103px] text-[14px] lg:text-[20px] mx-auto 
                                 flex items-center justify-between  bg-white  rounded-2xl px-1 md:px-[15px] py-[25px]"
             >
                 {/* LOGO */}
@@ -36,15 +36,15 @@ export default function Header() {
                     />
                 </Link>
                 {/* links */}
-                <div className="hidden md:block w-full">
-                    <div className="flex justify-center w-full gap-1 md:gap-2  xl:gap-[30px]">
+                <div className="hidden md:block w-full px-1">
+                    <div className="flex justify-center w-full gap-3 md:gap-3.5  xl:gap-[30px]">
                         <div className="relative group ">
                             <span className="cursor-pointer  text-gray-600 duration-200  hover:bg-gray-200 rounded-md">
                                 {translation("services")}
                             </span>
                             {/* Dropdown */}
                             <div
-                                className="absolute z-10 border   border-gray-200 left-0 mt-2 w-48 bg-white 
+                                className="absolute z-10 border border-gray-200 left-0 mt-2 w-48 bg-white 
                             rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible"
                             >
                                 <Link

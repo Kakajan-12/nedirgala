@@ -20,19 +20,17 @@ export default function ProductDetail({}) {
     return (
         <div className="mx-auto bg-white w-[90%] rounded-2xl md:p-8 p-4 font-sans max-w-[1330px]">
             <div className="grid grid-rows-[max-content_auto] md:grid-cols-[max-content_auto] gap-6 mb-10">
-                <div className="">
-                    <img
-                        src={product.imgUrl}
-                        alt={t(product.nameKey)}
-                        className="object-contain mx-auto h-[260px] md:h-[390px]"
-                    />
-                </div>
+                <img
+                    src={product.imgUrl}
+                    alt={t(product.nameKey)}
+                    className="object-contain mx-auto h-[260px] md:h-[390px]"
+                />
 
                 <div className="grid items-center">
                     <h1 className="text-[30px] md:text-[70px] font-bold text-center mb-8">
                         {t(product.nameKey)}
                     </h1>
-                    <div className="grid grid-cols-3 text-[23px] md:gap-[45px] gap-5 text-center items-center w-max mx-auto">
+                    <div className="flex flex-wrap  text-[23px] md:gap-[45px] gap-5 text-center items-center justify-center mx-auto">
                         <div className="grid justify-items-center h-max md:gap-4 gap-1">
                             <div className="flex items-center justify-center w-[60px] aspect-square bg-[#F0F7E8] rounded-full">
                                 <img
