@@ -21,7 +21,7 @@ function ProductItem({ id, nameKey, imgUrl, weight, containerKey }) {
                     src={imgUrl}
                 ></img>
             </div>
-            <div className="md:p-6  grid md:gap-5 gap-3">
+            <div className="md:p-6 p-2 grid md:gap-5 gap-3">
                 <span className="font-bold text-[18px] md:text-[30px] text-[#C32D2F] text-center">
                     {t(nameKey)}
                 </span>
