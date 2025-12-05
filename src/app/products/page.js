@@ -8,7 +8,7 @@ import { products } from "./products";
 function ProductItem({ id, nameKey, imgUrl, weight, containerKey }) {
     const t = useTranslations("products");
     return (
-        <div className="grid grid-rows-[max-content_auto_max-content] h-max bg-white gap-2 rounded-2xl overflow-hidden duration-200">
+        <div className="grid grid-rows-[max-content_auto_max-content] bg-white rounded-2xl overflow-hidden duration-200">
             <div className="relative overflow-hidden">
                 <img
                     className="w-full aspect-53/34"
@@ -74,7 +74,7 @@ export default function Products() {
         <div className="grid">
             <div className="w-full bg-[#c32d2f] overflow-hidden flex justify-center">
                 <img
-                    src="/assets/img/products/dayhan.png"
+                    src="/assets/img/products/dayhan.webp"
                     alt="dayhan"
                     className="md:max-h-[300px] max-h-[150px] h-full "
                 />

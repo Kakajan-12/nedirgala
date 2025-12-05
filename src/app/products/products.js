@@ -3,7 +3,7 @@
 export const products = [
     {
         id: 1,
-        imgUrl: "/assets/img/products/ketchup-1-removebg-preview.png",
+        imgUrl: "/assets/img/products/ketchup-1-removebg-preview.webp",
         nameKey: "tomato_paste",
         weight: "270g.",
         containerKey: "container_pet",
@@ -13,7 +13,7 @@ export const products = [
     },
     {
         id: 2,
-        imgUrl: "/assets/img/products/ketchup-2-removebg-preview.png",
+        imgUrl: "/assets/img/products/ketchup-2-removebg-preview.webp",
         nameKey: "spicy_paste",
         weight: "270g.",
         containerKey: "container_pet",
@@ -23,7 +23,7 @@ export const products = [
     },
     {
         id: 3,
-        imgUrl: "/assets/img/products/ketchup-3-removebg-preview.png",
+        imgUrl: "/assets/img/products/ketchup-3-removebg-preview.webp",
         nameKey: "tomato_paste",
         weight: "350g.",
         containerKey: "container_plastic",
@@ -33,7 +33,7 @@ export const products = [
     },
     {
         id: 4,
-        imgUrl: "/assets/img/products/ketchup-4-removebg-preview.png",
+        imgUrl: "/assets/img/products/ketchup-4-removebg-preview.webp",
         nameKey: "spicy_paste",
         weight: "350g.",
         containerKey: "container_plastic",
@@ -43,7 +43,7 @@ export const products = [
     },
     {
         id: 5,
-        imgUrl: "/assets/img/products/ketchup-5-removebg-preview.png",
+        imgUrl: "/assets/img/products/ketchup-5-removebg-preview.webp",
         nameKey: "tomato_paste",
         weight: "1000g.",
         containerKey: "container_plastic",
@@ -53,7 +53,7 @@ export const products = [
     },
     {
         id: 6,
-        imgUrl: "/assets/img/products/ketchup-6-removebg-preview.png",
+        imgUrl: "/assets/img/products/ketchup-6-removebg-preview.webp",
         nameKey: "spicy_paste",
         weight: "1000g.",
         containerKey: "container_plastic",

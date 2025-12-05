@@ -6,13 +6,13 @@ export default function ProductBase() {
     const t = useTranslations("product_base");
 
     const galleryImages = [
-        "/assets/img/product-base/ng1.jpg",
-        "/assets/img/product-base/ng2.jpg",
-        "/assets/img/product-base/ng3.jpg",
-        "/assets/img/product-base/ng4.jpg",
-        "/assets/img/product-base/ng5.jpg",
-        "/assets/img/product-base/ng6.jpg",
-        "/assets/img/product-base/ng7.jpg",
+        "/assets/img/product-base/ng1.webp",
+        "/assets/img/product-base/ng2.webp",
+        "/assets/img/product-base/ng3.webp",
+        "/assets/img/product-base/ng4.webp",
+        "/assets/img/product-base/ng5.webp",
+        "/assets/img/product-base/ng6.webp",
+        "/assets/img/product-base/ng7.webp",
     ];
 
     return (

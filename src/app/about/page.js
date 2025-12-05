@@ -9,7 +9,7 @@ export default function About() {
                 <div className="w-full relative overflow-hidden md:h-[80vh] h-[30vh] ">
                     <img
                         className="w-full h-full object-cover"
-                        src="/assets/img/berkarar.jpg"
+                        src="/assets/img/berkarar.webp"
                         alt="nedir gala"
                     />
                     <div className="absolute bg-black/40 top-0 w-full h-full grid content-end">

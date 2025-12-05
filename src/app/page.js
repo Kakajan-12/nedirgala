@@ -12,7 +12,7 @@ export default function Home() {
         <div className="mt-[-188px]">
             <div
                 className="relative flex items-center justify-center text-white text-center bg-cover bg-center overflow-hidden h-[80vh] md:h-screen"
-                style={{ backgroundImage: "url('/assets/img/berkarar.jpg')" }}
+                style={{ backgroundImage: "url('/assets/img/berkarar.webp')" }}
             >
                 <div className="bg-black/41 text-white bg-opacity-50 w-full h-full rounded-lg flex flex-col items-center justify-center">
                     <h1 className="text-[40px] md:text-[96px] font-medium uppercase">
@@ -38,7 +38,7 @@ export default function Home() {
                         </Link>
                     </div>
                     <img
-                        src="/assets/img/berkarar.jpg"
+                        src="/assets/img/berkarar.webp"
                         alt="nedir gala"
                         className="w-full h-full object-cover hidden lg:block"
                     />
@@ -53,32 +53,32 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-5 md:px-[55px]">
                         <ServiceItem
                             href="/services/lift"
-                            imgUrl={"/assets/img/lift/lift1.png"}
+                            imgUrl={"/assets/img/lift/lift1.webp"}
                             name={ts("lift")}
                         />
                         <ServiceItem
                             href="/services/greenhouse"
-                            imgUrl="/assets/img/greenhouse/teplisa1.JPG"
+                            imgUrl="/assets/img/greenhouse/teplisa1.webp"
                             name={ts("greenhouse")}
                         />
                         <ServiceItem
                             href="/products"
-                            imgUrl="/assets/img/products/ketchup_main.jpg"
+                            imgUrl="/assets/img/products/ketchup_main.webp"
                             name={ts("products")}
                         />
                         <ServiceItem
                             href="/services/tomate"
-                            imgUrl="/assets/img/tomato_plant/tomato2.jpg"
+                            imgUrl="/assets/img/tomato_plant/tomato2.webp"
                             name={ts("tomate")}
                         />
                         <ServiceItem
                             href="/services/constructions"
-                            imgUrl="/assets/img/construction/construction6.png"
+                            imgUrl="/assets/img/construction/construction6.webp"
                             name={ts("constructions")}
                         />
                         <ServiceItem
                             href="/services/technics"
-                            imgUrl="/assets/img/technics/tehnika20.JPG"
+                            imgUrl="/assets/img/technics/tehnika20.webp"
                             name={ts("technics")}
                         />
                     </div>
@@ -98,12 +98,12 @@ export default function Home() {
                     />
                     <img
                         className="w-[180px] aspect-square border border-gray-200 p-4 rounded-2xl object-contain overflow-hidden bg-white"
-                        src="/assets/img/brands/schindler.jpg"
+                        src="/assets/img/brands/schindler.webp"
                         alt="logo"
                     />
                     <img
                         className="w-[180px] aspect-square border border-gray-200 p-4 rounded-2xl object-contain overflow-hidden bg-white"
-                        src="/assets/img/brands/TSTB.svg"
+                        src="/assets/img/brands/TSTB.webp"
                         alt="logo"
                     />
                 </div>
