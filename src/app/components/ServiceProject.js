@@ -5,6 +5,30 @@
 import { useTranslations } from "next-intl";
 import FancyboxWrapper from "../components/FancyboxWrapper";
 
+function IconValueData({ value = "", icon = "", title = "" }) {
+    return (
+        <div
+            className={
+                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040]  items-center gap-2 w-full grid justify-items-center grid-rows-[max-content_auto]"
+            }
+        >
+            <img
+                className=" w-[30px] md:w-[60px] aspect-square"
+                alt=""
+                src={icon}
+            ></img>
+            <div className="grid content-between">
+                <label className="font-bold md:text-[25px] text-[16px] text-center">
+                    {title}
+                </label>
+                <span className="md:text-[20px] text-[12px] font-medium text-center">
+                    {value}
+                </span>
+            </div>
+        </div>
+    );
+}
+
 export default function ServiceProject({
     title,
     text,
@@ -15,7 +39,6 @@ export default function ServiceProject({
     imageUrlList,
 }) {
     const t = useTranslations("ServiceProject");
-    console.log(location);
 
     return (
         <div className="grid gap-4">
@@ -42,65 +65,24 @@ export default function ServiceProject({
                                 : ` lg:grid-cols-2 `
                         }`}
                     >
-                        <div
-                            className={
-                                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040]  items-center gap-2 w-full grid grid-cols-[max-content_auto]"
-                            }
-                        >
-                            <img
-                                className=" w-[30px] md:w-[60px] aspect-square"
-                                alt=""
-                                src={"/assets/img/location.png"}
-                            ></img>
-                            <div className="grid content-between">
-                                <label className="font-bold md:text-[25px] text-[16px]">
-                                    {t("location")}
-                                </label>
-                                <label className="md:text-[20px] text-[12px] font-medium">
-                                    {location}
-                                </label>
-                            </div>
-                        </div>
+                        <IconValueData
+                            title={t("location")}
+                            value={location}
+                            icon="/assets/img/location.png"
+                        ></IconValueData>
+
                         {products && (
-                            <div
-                                className={
-                                    "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040]  items-center gap-2 w-full grid grid-cols-[max-content_auto] "
-                                }
-                            >
-                                <img
-                                    className=" w-[30px] md:w-[60px] aspect-square"
-                                    alt=""
-                                    src={"/assets/img/cherry.png"}
-                                ></img>
-                                <div className="grid content-between">
-                                    <label className="font-bold md:text-[25px] text-[16px]">
-                                        {t("products")}
-                                    </label>
-                                    <label className="md:text-[20px] text-[12px] font-medium">
-                                        {products}
-                                    </label>
-                                </div>
-                            </div>
+                            <IconValueData
+                                title={t("products")}
+                                value={products}
+                                icon="/assets/img/cherry.png"
+                            ></IconValueData>
                         )}
-                        <div
-                            className={
-                                "rounded-[15px] p-[15px] shadow-lg bg-white shadow-[#00000040]  items-center gap-2 w-full grid grid-cols-[max-content_auto] "
-                            }
-                        >
-                            <img
-                                className=" w-[30px] md:w-[60px] aspect-square"
-                                alt=""
-                                src={"/assets/img/area.png"}
-                            ></img>
-                            <div className="grid content-between">
-                                <label className="font-bold md:text-[25px] text-[16px]">
-                                    {t("area")}
-                                </label>
-                                <label className="md:text-[20px] text-[12px] font-medium">
-                                    {area}
-                                </label>
-                            </div>
-                        </div>
+                        <IconValueData
+                            title={t("area")}
+                            value={area}
+                            icon="/assets/img/area.png"
+                        ></IconValueData>
                     </div>
                 )}
                 {text && (
