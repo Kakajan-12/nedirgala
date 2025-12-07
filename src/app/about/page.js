@@ -5,7 +5,7 @@ export default function About() {
     const translation = useTranslations("about");
     return (
         <div className="grid">
-            <div className="w-full relative overflow-hidden md:h-[80vh] h-[30vh] mt-[-188px] ">
+            <div className="w-full relative overflow-hidden h-[80vh] mt-[-188px] md:h-screen ">
                 <img
                     className="w-full h-full object-cover"
                     src="/assets/img/berkarar.webp"
