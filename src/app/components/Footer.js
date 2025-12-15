@@ -33,31 +33,31 @@ export default function Footer() {
                         </label>
                         <div className="grid">
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="#"
                             >
                                 {translation("services")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/services/lift"
                             >
                                 {serviceTranlation("lift")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/services/greenhouse"
                             >
                                 {serviceTranlation("greenhouse")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/about"
                             >
                                 {translation("about_us")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/contact"
                             >
                                 {translation("contact")}
@@ -70,31 +70,31 @@ export default function Footer() {
                         </label>
                         <div className="grid">
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/product_base"
                             >
                                 {translation("production_base")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/products"
                             >
                                 {translation("products")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/services/tomate"
                             >
                                 {serviceTranlation("tomate")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/services/constructions"
                             >
                                 {serviceTranlation("constructions")}
                             </Link>
                             <Link
-                                className="hover:bg-gray-100 duration-200 py-1 w-max rounded-md"
+                                className="hover:bg-gray-50/20 duration-200 py-1 w-max rounded-md"
                                 href="/technics"
                             >
                                 {serviceTranlation("technics")}
@@ -109,25 +109,25 @@ export default function Footer() {
                             {contactTranslation("phone_title")}
                         </label>
                         <Link
-                            className="hover:bg-gray-100 duration-100 w-max rounded-md"
+                            className="hover:bg-gray-100/20 duration-100 w-max rounded-md"
                             href={"tel:+993(12)468160"}
                         >
                             +993(12)468160
                         </Link>
                         <Link
-                            className="hover:bg-gray-100 duration-100 w-max rounded-md"
+                            className="hover:bg-gray-100/20 duration-100 w-max rounded-md"
                             href={"tel:+993(12)468161"}
                         >
                             +993(12)468161
                         </Link>
                         <Link
-                            className="hover:bg-gray-100 duration-100 w-max rounded-md"
+                            className="hover:bg-gray-100/20 duration-100 w-max rounded-md"
                             href={"tel:+993(12)468162"}
                         >
                             +993(12)468162
                         </Link>
                         <Link
-                            className="hover:bg-gray-100 duration-100 w-max rounded-md"
+                            className="hover:bg-gray-100/20 duration-100 w-max rounded-md"
                             href={"mail:info@nedir-gala.com"}
                         >
                             Email: info@nedir-gala.com
