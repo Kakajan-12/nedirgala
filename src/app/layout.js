@@ -10,6 +10,9 @@ import Footer from "./components/Footer";
 export const metadata = {
     title: "Nedirgala",
     description: "",
+    icons: {
+        icon: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({ children }) {
@@ -19,7 +22,6 @@ export default function RootLayout({ children }) {
             <body>
                 <div className="bg-[#F6F5F0]">
                     <NextIntlClientProvider messages={messages}>
-                        {/* header */}
                         <Header></Header>
                         {children}
                         <Footer></Footer>

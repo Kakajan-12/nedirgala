@@ -59,20 +59,23 @@ export default function Lift() {
     const t = useTranslations("lift");
 
     return (
-        <div className="grid md:my-4 px-4 md:px-[55px]">
-            <h3 className="text-[30px] md:text-[70px] md:my-4 text-[#0C0C0C]">
-                {t("pageTitle")}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center  my-4 mb-8">
-                {lifts.map((project, index) => (
-                    <ProjectItem
-                        imgSrc={project.mainImageUrl}
-                        href={"/services/lift/" + project.id}
-                        key={index + 1}
-                        title={t(project.titleKey)}
-                    />
-                ))}
+        <div className="container mx-auto px-4">
+            <div className="grid md:my-4 px-4 md:px-[55px]">
+                <h3 className="text-2xl font-medium sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:my-4 text-[#0C0C0C]">
+                    {t("pageTitle")}
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center  my-4 mb-8">
+                    {lifts.map((project, index) => (
+                        <ProjectItem
+                            imgSrc={project.mainImageUrl}
+                            href={"/services/lift/" + project.id}
+                            key={index + 1}
+                            title={t(project.titleKey)}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
+
     );
 }

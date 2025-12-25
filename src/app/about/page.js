@@ -17,9 +17,12 @@ export default function About() {
                     </label>
                 </div>
             </div>
-            <div className="md:m-[55px] m-5 p-4 md:p-[65px] bg-white rounded-2xl">
-                <p className="my-6">{translation("description")}</p>
+            <div className="container mx-auto px-4">
+                <div className="mt-4 bg-white rounded-2xl">
+                    <p className="p-4">{translation("description")}</p>
+                </div>
             </div>
+
         </div>
     );
 }

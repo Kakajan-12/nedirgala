@@ -12,7 +12,7 @@ export function ProjectItem({ href, imgSrc, title }) {
                 alt={title}
                 className="w-full aspect-4/3 object-cover group-hover:scale-110 duration-300"
             />
-            <label className="text-slate-600 font-semibold align-middle items-center text-[30px] md:text-[25px] h-max m-auto md:p-4 p-2 text-center">
+            <label className="text-slate-600 font-semibold align-middle items-center text-lg sm:text-2xl h-max m-auto md:p-4 p-2 text-center">
                 {title}
             </label>
         </Link>

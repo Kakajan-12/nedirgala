@@ -79,30 +79,35 @@ export default function Products() {
                     className="md:max-h-[300px] max-h-[150px] h-full "
                 />
             </div>
-            <section className="md:px-[55px] px-5">
-                <div className="my-8 grid gap-2">
-                    <label className="md:text-[65px] text-[30px] font-bold">
-                        {t("page_title")}
-                    </label>
-                    <label className="text-[16px] md:text-[35px]">
-                        {t("page_subtitle")}
-                    </label>
-                </div>
-                <div className="products grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-10 gap-4 my-6">
-                    {products.map((product) => (
-                        <ProductItem
-                            key={product.id}
-                            id={product.id}
-                            imgUrl={product.imgUrl}
-                            nameKey={product.nameKey}
-                            weight={product.weight}
-                            containerKey={product.containerKey}
-                            amountKey={product.amountKey}
-                            amountCount={product.amountCount}
-                        />
-                    ))}
-                </div>
-            </section>
+            <div className="container mx-auto px-4">
+
+                <section className="md:px-[55px] px-5">
+                    <div className="my-8 grid gap-2">
+                        <label className="md:text-[65px] text-[30px] font-bold">
+                            {t("page_title")}
+                        </label>
+                        <label className="text-[16px] md:text-[35px]">
+                            {t("page_subtitle")}
+                        </label>
+                    </div>
+                    <div
+                        className="products grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-10 gap-4 my-6">
+                        {products.map((product) => (
+                            <ProductItem
+                                key={product.id}
+                                id={product.id}
+                                imgUrl={product.imgUrl}
+                                nameKey={product.nameKey}
+                                weight={product.weight}
+                                containerKey={product.containerKey}
+                                amountKey={product.amountKey}
+                                amountCount={product.amountCount}
+                            />
+                        ))}
+                    </div>
+                </section>
+            </div>
         </div>
+
     );
 }

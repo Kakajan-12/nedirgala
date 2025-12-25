@@ -73,14 +73,17 @@ export default function Technics() {
     const [activeTab, setActiveTab] = useState(0);
     const t = useTranslations("technics");
     return (
-        <div className="grid gap-4 md:gap-[85px] my-4 md:px-[55px] px-[20px]">
-            <div className="flex justify-items-center mx-auto">
-                <Tab
-                    onChange={setActiveTab}
-                    buttons={technicTabs.map((tab) => t(`tabs.${tab.id}`))}
-                ></Tab>
+        <div className="container mx-auto px-4">
+            <div className="grid gap-4 md:gap-[85px] my-4 md:px-[55px] px-[20px]">
+                <div className="flex justify-items-center mx-auto">
+                    <Tab
+                        onChange={setActiveTab}
+                        buttons={technicTabs.map((tab) => t(`tabs.${tab.id}`))}
+                    ></Tab>
+                </div>
+                <Gallery images={technicTabs[activeTab].images}></Gallery>
             </div>
-            <Gallery images={technicTabs[activeTab].images}></Gallery>
         </div>
+
     );
 }
